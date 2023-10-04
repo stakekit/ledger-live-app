@@ -2378,10 +2378,10 @@
     "@stablelib/random" "^1.0.2"
     "@stablelib/wipe" "^1.0.1"
 
-"@stakekit/api-hooks@^0.0.35":
-  version "0.0.35"
-  resolved "https://registry.yarnpkg.com/@stakekit/api-hooks/-/api-hooks-0.0.35.tgz#4d36c994c7994651b86a7326405057ae6d8c92c2"
-  integrity sha512-yv3Kngkb0/k2LKYYGSiklW6OgJXGPTEIbkUefR6hMGXfYEItjbtZMs0rVrZu9Uatu2u6aoMstVVXUT3c3lWjBw==
+"@stakekit/api-hooks@^0.0.37":
+  version "0.0.37"
+  resolved "https://registry.yarnpkg.com/@stakekit/api-hooks/-/api-hooks-0.0.37.tgz#27650d473600a0ae84d9f5749f9f80f6afbdeaa3"
+  integrity sha512-LuZZY2deLdkzilr8U6Tqp9AZQA9rTOmeXo5+oTqy8RYPvwFBdDAdlKOVJowy+foK39gUGls9ir0DDfvHJU7frA==
   dependencies:
     "@tanstack/react-query" "^4.33.0"
     axios "^1.5.0"
@@ -2392,10 +2392,10 @@
   resolved "https://registry.yarnpkg.com/@stakekit/common/-/common-0.0.17.tgz#b442d98591c76034d8ef7f57332d03c9a46bb97b"
   integrity sha512-Y53H0yLGd0MTkVMpI2L/SZ467Kjz3yT1vKD+DbxRdh5wBPeveZ8IUYPH4/Fq7YPOhczLMZO5jgoat5lckikcDQ==
 
-"@stakekit/rainbowkit@^1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@stakekit/rainbowkit/-/rainbowkit-1.0.11.tgz#9d4df9c3c27da495e4b63b13f0d47c3ddafac4f1"
-  integrity sha512-g6u0hUjh+eL3MNLz29c7nJt1lf5VWCPSgGiat1t5EUQlO1p2i2Bp2tnwjin0EfbykRmgqN13pmducJhXoW+R1Q==
+"@stakekit/rainbowkit@^1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@stakekit/rainbowkit/-/rainbowkit-1.0.12.tgz#6010fd97337fa1a28551b8a5dbaf1def741d8dfa"
+  integrity sha512-dDZkV0I+PPVwNjEOJq61eetLW95+/rgxu2S33rNBuf0eM97Obe9K0O8l1JApMrRueRL/yFVyCzEylTVgFQwzlA==
   dependencies:
     "@vanilla-extract/css" "1.9.1"
     "@vanilla-extract/dynamic" "2.0.2"
@@ -2404,10 +2404,10 @@
     qrcode "1.5.0"
     react-remove-scroll "2.5.4"
 
-"@stakekit/widget@^0.0.39":
-  version "0.0.39"
-  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.39.tgz#cbe0d4ecb91b9b36e245fc7bf6396a3a50d630d8"
-  integrity sha512-5WQB6AbuNsjLtPpeKD066QUmriyjpAGSgabjbYpihCfpmCZEfqG6uFCi5lO5L1B2/1gtWLKLuK1TWq8C60c+AA==
+"@stakekit/widget@^0.0.40":
+  version "0.0.40"
+  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.40.tgz#812bcc8d03afcadbed93946772728e77105c88c5"
+  integrity sha512-ZD49b6WgV571W4unCCaSLeyaws5k0uS4r/idRexwYq3d5uMPIg5BW2RjF7HlixAh3LX2EKD72qMzVNBtrqS0Vw==
   dependencies:
     "@cassiozen/usestatemachine" "^1.0.1"
     "@cosmjs/cosmwasm-stargate" "0.31.1"
@@ -2417,9 +2417,9 @@
     "@cosmos-kit/walletconnect" "2.3.9"
     "@ledgerhq/wallet-api-client" "^1.1.0"
     "@radix-ui/react-alert-dialog" "^1.0.4"
-    "@stakekit/api-hooks" "^0.0.35"
+    "@stakekit/api-hooks" "^0.0.37"
     "@stakekit/common" "^0.0.17"
-    "@stakekit/rainbowkit" "^1.0.11"
+    "@stakekit/rainbowkit" "^1.0.12"
     "@tanstack/react-query" "^4.35.3"
     "@vanilla-extract/css" "^1.13.0"
     "@vanilla-extract/dynamic" "^2.0.3"
