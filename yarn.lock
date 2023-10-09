@@ -2404,10 +2404,10 @@
     qrcode "1.5.0"
     react-remove-scroll "2.5.4"
 
-"@stakekit/widget@^0.0.50":
-  version "0.0.50"
-  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.50.tgz#1ef726803e85a0acef4a272c5f44dcc44b019311"
-  integrity sha512-G5KcX7svnZnsPuHgSjpvVhCEb/rYGeV3j0O9tU3a955yLEV5KeUxM1YzOY1J5MqJO/v5IkihDe3bdmGGWeStLg==
+"@stakekit/widget@^0.0.51":
+  version "0.0.51"
+  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.51.tgz#249f64e6ddac492194eea9d366ce5da7d7968cd4"
+  integrity sha512-2MLA8ncaR/KNbEsU2FQ4uEzPAhf66wMF7Eg62s1QrlYqvGHnKkPg0nfukOi05Ln3BeAbzrzr2/sWUdXR02e7PQ==
   dependencies:
     "@cassiozen/usestatemachine" "^1.0.1"
     "@cosmjs/cosmwasm-stargate" "0.31.1"
