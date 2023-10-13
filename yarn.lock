@@ -2404,10 +2404,10 @@
     qrcode "1.5.0"
     react-remove-scroll "2.5.4"
 
-"@stakekit/widget@^0.0.57":
-  version "0.0.57"
-  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.57.tgz#4804e91dd3849ace8092b6ab0898e3691cacd158"
-  integrity sha512-8knt5grhDl3rnfxn3rACmUOcCNM6OnEZsI6Sxuw+oHMYUFzSldro4+xHwFriQVNN4DBxmVcES/Gm/npSSZ7Jxg==
+"@stakekit/widget@^0.0.58":
+  version "0.0.58"
+  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.58.tgz#65bf7cca0c41e9bbd477b25f13751eed8109ce95"
+  integrity sha512-miORrypOY/m+yoTaGEnoAuNjnDpkD/J2xG1ZIPEA+fcJhnCJQvZmW5kChimqhkoZnIGW0y2cg5Iw8vQDbZQF1A==
   dependencies:
     "@cassiozen/usestatemachine" "^1.0.1"
     "@cosmjs/cosmwasm-stargate" "0.31.1"
@@ -2434,8 +2434,8 @@
     i18next-browser-languagedetector "^7.1.0"
     lodash.merge "^4.6.2"
     purify-ts "^2.0.1"
-    react-content-loader "^6.2.1"
     react-i18next "^13.2.2"
+    react-loading-skeleton "^3.3.1"
     react-router-dom "^6.16.0"
     react-virtuoso "^4.6.0"
     reselect "^4.1.8"
@@ -6468,11 +6468,6 @@ randomfill@^1.0.3:
     randombytes "^2.0.5"
     safe-buffer "^5.1.0"
 
-react-content-loader@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/react-content-loader/-/react-content-loader-6.2.1.tgz#8feb733c2d2495002e1b216f13707f2b5f2a8ead"
-  integrity sha512-6ONbFX+Hi3SHuP66JB8CPvJn372pj+qwltJV0J8z/8MFrq98I1cbFdZuhDWeQXu3CFxiiDTXJn7DFxx2ZvrO7g==
-
 react-dom@18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
@@ -6498,6 +6493,11 @@ react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-loading-skeleton@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/react-loading-skeleton/-/react-loading-skeleton-3.3.1.tgz#cd6e3a626ee86c76a46c14e2379243f2f8834e1b"
+  integrity sha512-NilqqwMh2v9omN7LteiDloEVpFyMIa0VGqF+ukqp0ncVlYu1sKYbYGX9JEl+GtOT9TKsh04zCHAbavnQ2USldA==
 
 react-remove-scroll-bar@^2.3.3:
   version "2.3.4"
