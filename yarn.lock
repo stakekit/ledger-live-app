@@ -2378,10 +2378,10 @@
     "@stablelib/random" "^1.0.2"
     "@stablelib/wipe" "^1.0.1"
 
-"@stakekit/api-hooks@^0.0.37":
-  version "0.0.37"
-  resolved "https://registry.yarnpkg.com/@stakekit/api-hooks/-/api-hooks-0.0.37.tgz#27650d473600a0ae84d9f5749f9f80f6afbdeaa3"
-  integrity sha512-LuZZY2deLdkzilr8U6Tqp9AZQA9rTOmeXo5+oTqy8RYPvwFBdDAdlKOVJowy+foK39gUGls9ir0DDfvHJU7frA==
+"@stakekit/api-hooks@^0.0.39":
+  version "0.0.39"
+  resolved "https://registry.yarnpkg.com/@stakekit/api-hooks/-/api-hooks-0.0.39.tgz#5d82d489810a9c31d689c8e8192f158803834f15"
+  integrity sha512-ZzVHioc3unmfl3t90p/4PPvbChhYNPAcSl1eOKsGCHUmMe+FRNlzDMYHuAaAZsLhfseZOIOOoByvx0p4UGPuWQ==
   dependencies:
     "@tanstack/react-query" "^4.33.0"
     axios "^1.5.0"
@@ -2404,10 +2404,10 @@
     qrcode "1.5.0"
     react-remove-scroll "2.5.4"
 
-"@stakekit/widget@^0.0.56":
-  version "0.0.56"
-  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.56.tgz#1911b91ac957bff5b956b530c225bbe7c735fc80"
-  integrity sha512-+K2OWAcnrRBgQ6N+0Sol47eFHisEW6QlxlpqXEPom9lHVSWliKnWUktw6DZKkQZPRyHD2+g2sEzqF98mWRju0w==
+"@stakekit/widget@^0.0.57":
+  version "0.0.57"
+  resolved "https://registry.yarnpkg.com/@stakekit/widget/-/widget-0.0.57.tgz#4804e91dd3849ace8092b6ab0898e3691cacd158"
+  integrity sha512-8knt5grhDl3rnfxn3rACmUOcCNM6OnEZsI6Sxuw+oHMYUFzSldro4+xHwFriQVNN4DBxmVcES/Gm/npSSZ7Jxg==
   dependencies:
     "@cassiozen/usestatemachine" "^1.0.1"
     "@cosmjs/cosmwasm-stargate" "0.31.1"
@@ -2417,7 +2417,7 @@
     "@cosmos-kit/walletconnect" "2.3.9"
     "@ledgerhq/wallet-api-client" "^1.1.0"
     "@radix-ui/react-alert-dialog" "^1.0.4"
-    "@stakekit/api-hooks" "^0.0.37"
+    "@stakekit/api-hooks" "^0.0.39"
     "@stakekit/common" "^0.0.17"
     "@stakekit/rainbowkit" "^1.0.12"
     "@tanstack/react-query" "^4.35.3"
