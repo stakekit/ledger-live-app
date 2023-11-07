@@ -3405,9 +3405,9 @@ __metadata:
   linkType: hard
 
 "@types/mixpanel-browser@npm:^2":
-  version: 2.47.4
-  resolution: "@types/mixpanel-browser@npm:2.47.4"
-  checksum: 7aec1980a60bf6abc40699762de1cee157b0f3029c6b9761a90d6edf2dd7cda1bfa008b7224f8d1942967fd834499e96a621228f1aa7e8bf7f3e97583c1e7201
+  version: 2.47.5
+  resolution: "@types/mixpanel-browser@npm:2.47.5"
+  checksum: 70f97f35b50ae9b5673d2d0b0f5d2ce7b9a6fa7ace8823d89b663cce84423b3c97e7c6018af4178267bc8f98868fd131025c61a7e9f13929e0001e510153fcc2
   languageName: node
   linkType: hard
 
