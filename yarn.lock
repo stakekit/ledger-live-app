@@ -3795,11 +3795,11 @@ __metadata:
   linkType: hard
 
 "@vanilla-extract/recipes@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "@vanilla-extract/recipes@npm:0.5.0"
+  version: 0.5.1
+  resolution: "@vanilla-extract/recipes@npm:0.5.1"
   peerDependencies:
     "@vanilla-extract/css": ^1.0.0
-  checksum: ed548414f42a5245a6ede2493b8ac2a25a970f1cb79aaf3121487568b5bd905f85b3fb5e5fb923bfa9c9a7568eabb8428848b84085b06e0c0631b3d21fc8abac
+  checksum: 2d1a6ad3b421b91f005a0a8531050d98488e2e1dbcbda65d6fe21d239357cfe1e6b03ce9bf2a5eb5fbd065a373f0794eab121330a5f7e8d8fbb4cbbed67caf31
   languageName: node
   linkType: hard
 
