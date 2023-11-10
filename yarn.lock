@@ -3719,12 +3719,11 @@ __metadata:
   linkType: hard
 
 "@vanilla-extract/css@npm:^1.10.0, @vanilla-extract/css@npm:^1.13.0":
-  version: 1.13.0
-  resolution: "@vanilla-extract/css@npm:1.13.0"
+  version: 1.14.0
+  resolution: "@vanilla-extract/css@npm:1.14.0"
   dependencies:
     "@emotion/hash": "npm:^0.9.0"
     "@vanilla-extract/private": "npm:^1.0.3"
-    ahocorasick: "npm:1.0.2"
     chalk: "npm:^4.1.1"
     css-what: "npm:^6.1.0"
     cssesc: "npm:^3.0.0"
@@ -3732,8 +3731,9 @@ __metadata:
     deep-object-diff: "npm:^1.1.9"
     deepmerge: "npm:^4.2.2"
     media-query-parser: "npm:^2.0.2"
+    modern-ahocorasick: "npm:^1.0.0"
     outdent: "npm:^0.8.0"
-  checksum: 10f2aeb5463aa5506cf2e39b04c686fca3d792653ce32a3b0173a25f9417a91c48105c28fc6b32fdbac907d7222eba19903926342d58487a3a51c31b23020cd6
+  checksum: 8e5d6419af7249c873db4acf9751044245a004133073fe6c85ae800f6b88794ac4e323612c2dc6fa67ea797bdebf57432f153311e86ab3707110f18d5b038557
   languageName: node
   linkType: hard
 
@@ -8245,6 +8245,13 @@ __metadata:
   version: 6.10.2
   resolution: "mobx@npm:6.10.2"
   checksum: c874e3531047dcd1c0ffa7c118ecab2e1abebd924e3cf361bcfce4304e75529d8c0143b8b72e35e4592eed417b3186b755e56f4e03983461ba1816c1d47499e3
+  languageName: node
+  linkType: hard
+
+"modern-ahocorasick@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "modern-ahocorasick@npm:1.0.0"
+  checksum: 94518a02ec68b9634d637e473702f292022b76694722a01011de8475ef64ba7bbe5357ba972eb2428da6a086e0aae7e268171af53dccac1965d7285cf9d3abcf
   languageName: node
   linkType: hard
 
