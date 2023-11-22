@@ -3128,9 +3128,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:^0.0.76":
-  version: 0.0.76
-  resolution: "@stakekit/widget@npm:0.0.76"
+"@stakekit/widget@npm:^0.0.77":
+  version: 0.0.77
+  resolution: "@stakekit/widget@npm:0.0.77"
   dependencies:
     "@cassiozen/usestatemachine": "npm:^1.0.1"
     "@cosmjs/cosmwasm-stargate": "npm:0.31.3"
@@ -3168,7 +3168,7 @@ __metadata:
     react-dom: ">=17"
     viem: ">=1.0.0"
     wagmi: ">=1.0.0"
-  checksum: 3f41ef93e2ae189e27b389252ebceb50ac1ad9669f0977c3d07ba99b7925d82bcbe9556bc47e5464488945dffe318382b70d05f7ea1c2a469cb1d77cb10c6564
+  checksum: 227a8cb9007e4fb8d39be9b94d1b98faa5cf5e09d10f7c390b87b1d4adf087fcdf40281bece89520bd8300167bc68282f314b4bce996d73ce826ec1038de2209
   languageName: node
   linkType: hard
 
@@ -9807,7 +9807,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "standalone-dapp@workspace:."
   dependencies:
-    "@stakekit/widget": "npm:^0.0.76"
+    "@stakekit/widget": "npm:^0.0.77"
     "@types/eslint": "npm:^8.44.7"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.47.5"
