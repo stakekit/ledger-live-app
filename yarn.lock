@@ -19,13 +19,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@adraffy/ens-normalize@npm:1.9.4":
-  version: 1.9.4
-  resolution: "@adraffy/ens-normalize@npm:1.9.4"
-  checksum: 95190ee7e6e40d77cfbaaac3edfb4c0cf399e0781e920741ffb73cff141c40651cc5dbbb727e21d2c48ef66b9f082757125350b11af974172120f05ce5a635a7
-  languageName: node
-  linkType: hard
-
 "@ampproject/remapping@npm:^2.2.0":
   version: 2.2.1
   resolution: "@ampproject/remapping@npm:2.2.1"
@@ -10476,30 +10469,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"viem@npm:^1.0.0":
-  version: 1.17.2
-  resolution: "viem@npm:1.17.2"
-  dependencies:
-    "@adraffy/ens-normalize": "npm:1.9.4"
-    "@noble/curves": "npm:1.2.0"
-    "@noble/hashes": "npm:1.3.2"
-    "@scure/bip32": "npm:1.3.2"
-    "@scure/bip39": "npm:1.2.1"
-    abitype: "npm:0.9.8"
-    isows: "npm:1.0.3"
-    ws: "npm:8.13.0"
-  peerDependencies:
-    typescript: ">=5.0.4"
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: f9193bb6bfae46a31bf15e4886534cf71732128191d2bca025939d6ad7124c6a8df43fc8d7138eac3cc5c827299c0a23525b49d229d6ef25651eaddb31862a91
-  languageName: node
-  linkType: hard
-
-"viem@npm:^1.19.5":
-  version: 1.19.5
-  resolution: "viem@npm:1.19.5"
+"viem@npm:^1.0.0, viem@npm:^1.19.5":
+  version: 1.19.8
+  resolution: "viem@npm:1.19.8"
   dependencies:
     "@adraffy/ens-normalize": "npm:1.10.0"
     "@noble/curves": "npm:1.2.0"
@@ -10514,7 +10486,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 0245e9eab5cf9aaea9fb049e6b5510d00d1868b29e7842fc50f9465571f12450005bb33b6fd7e145689afce063d1f747fe4f6b34096a978e23de69f581c1d3ae
+  checksum: df28d6388c7b913d46b7a2218094df099f21162665028d6630479d4828bf4e4e0ef860ac1649da982d978730b7b23fb9f66346ec6556c08176d27d20f9b274ca
   languageName: node
   linkType: hard
 
