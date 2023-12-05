@@ -1,4 +1,4 @@
-import { Box, BoxProps } from "../atoms/box"
+import { Box, BoxProps } from "../box"
 import { DividerVariants, styles } from "./style.css"
 
 type Props = BoxProps & {
