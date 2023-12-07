@@ -1384,26 +1384,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ledgerhq/wallet-api-client@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@ledgerhq/wallet-api-client@npm:1.3.0"
+"@ledgerhq/wallet-api-client@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@ledgerhq/wallet-api-client@npm:1.4.0"
   dependencies:
     "@ledgerhq/hw-transport": "npm:^6.28.8"
-    "@ledgerhq/wallet-api-core": "npm:1.4.0"
+    "@ledgerhq/wallet-api-core": "npm:1.5.0"
     bignumber.js: "npm:^9.1.2"
-  checksum: 69109a3f8871b9a5f72aa7a1380b0330ded6888d0382eb651d5eef1399232da2e8ec14aac7b51b1dd4e2d833960e1d9e1ec3a5baadc54bbdd4808ae5c1f8b02d
+  checksum: 564c3a2c786430f61d99d75c3a905b93781f89b89c4cccb34d14329153cc080ba1acaedd0de7d4a3eb6205fe00d43848d4271c5b321d6b1f19f6abc68d10ee46
   languageName: node
   linkType: hard
 
-"@ledgerhq/wallet-api-core@npm:1.4.0":
-  version: 1.4.0
-  resolution: "@ledgerhq/wallet-api-core@npm:1.4.0"
+"@ledgerhq/wallet-api-core@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@ledgerhq/wallet-api-core@npm:1.5.0"
   dependencies:
     "@ledgerhq/errors": "npm:^6.14.0"
     bignumber.js: "npm:^9.1.2"
     uuid: "npm:^9.0.0"
     zod: "npm:^3.22.2"
-  checksum: 617ef3b0f32318ff1f22df167de3e5467ad339859ec22029336f842f7752b79e521236f3b93c095d2a83ec7679876f87db2f6c6b30b9da6470d686c5ecc2d8fa
+  checksum: d040c6851d915bf9be4937020b36aa5be0fd1d3976d0d7187d3fa294b63dd2603c6cbddf73b1afacd2eedc9b3c226d1fa5fc430c4f0b375e0511eaf953b62ef0
   languageName: node
   linkType: hard
 
@@ -2521,21 +2521,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/api-hooks@npm:^0.0.43":
-  version: 0.0.43
-  resolution: "@stakekit/api-hooks@npm:0.0.43"
+"@stakekit/api-hooks@npm:^0.0.44":
+  version: 0.0.44
+  resolution: "@stakekit/api-hooks@npm:0.0.44"
   dependencies:
     "@tanstack/react-query": "npm:^5.12.2"
     axios: "npm:^1.6.2"
     lodash.merge: "npm:^4.6.2"
-  checksum: 1edc06258b9dc8469dc963b1deecb9ae92ef6e384cbd844f4dd6749929134e900e911e77b68ffb2cb6cfa323e6a24da76323e9290e775f557e377d878612efb7
+  checksum: 8bd0b2bcd938fead333eeb558e97a85bc9feae86a45b55bd9d06ce19a2c5d1c805293e5d71a49b1ad828559934b09f642d51b6254bc57d039cc74759d56a0b02
   languageName: node
   linkType: hard
 
-"@stakekit/common@npm:^0.0.19":
-  version: 0.0.19
-  resolution: "@stakekit/common@npm:0.0.19"
-  checksum: ef3a2ecafc7351f43d41a676af6ded37160fcd0b3809c27cbf772a4e76d18260c9e22868f6d74304302e353a3736dcb6f091089a65cbd4a3e7de0399f841d4fc
+"@stakekit/common@npm:^0.0.22":
+  version: 0.0.22
+  resolution: "@stakekit/common@npm:0.0.22"
+  checksum: 0507705ac205c3223df78e8cdfa5a22fb0f59224202f261f0c895772d7ce8b5c13df2921bf7880e722ae4595e97e6715f56a269f3291c68fb7536105922413cc
   languageName: node
   linkType: hard
 
@@ -2560,9 +2560,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:^0.0.78":
-  version: 0.0.78
-  resolution: "@stakekit/widget@npm:0.0.78"
+"@stakekit/widget@npm:^0.0.79":
+  version: 0.0.79
+  resolution: "@stakekit/widget@npm:0.0.79"
   dependencies:
     "@cassiozen/usestatemachine": "npm:^1.0.1"
     "@cosmjs/amino": "npm:^0.32.0"
@@ -2573,13 +2573,13 @@ __metadata:
     "@cosmos-kit/keplr": "npm:^2.4.12"
     "@cosmos-kit/leap": "npm:^2.4.13"
     "@cosmos-kit/walletconnect": "npm:2.4.10"
-    "@ledgerhq/wallet-api-client": "npm:^1.3.0"
+    "@ledgerhq/wallet-api-client": "npm:^1.4.0"
     "@radix-ui/react-alert-dialog": "npm:^1.0.5"
-    "@stakekit/api-hooks": "npm:^0.0.43"
-    "@stakekit/common": "npm:^0.0.19"
+    "@stakekit/api-hooks": "npm:^0.0.44"
+    "@stakekit/common": "npm:^0.0.22"
     "@stakekit/rainbowkit": "npm:^1.3.0"
     "@tanstack/react-query": "npm:^5.12.2"
-    "@tanstack/react-query-devtools": "npm:^5.12.2"
+    "@tanstack/react-query-devtools": "npm:^5.13.3"
     "@vanilla-extract/css": "npm:^1.14.0"
     "@vanilla-extract/dynamic": "npm:^2.1.0"
     "@vanilla-extract/recipes": "npm:^0.5.1"
@@ -2588,7 +2588,7 @@ __metadata:
     clsx: "npm:^2.0.0"
     cosmjs-types: "npm:^0.9.0"
     eip1193-provider: "npm:^1.0.1"
-    i18next: "npm:^23.7.7"
+    i18next: "npm:^23.7.8"
     i18next-browser-languagedetector: "npm:^7.2.0"
     lodash.merge: "npm:^4.6.2"
     purify-ts: "npm:^2.0.1"
@@ -2596,13 +2596,13 @@ __metadata:
     react-loading-skeleton: "npm:^3.3.1"
     react-router-dom: "npm:^6.20.1"
     react-virtuoso: "npm:^4.6.2"
-    reselect: "npm:^4.1.8"
+    reselect: "npm:^5.0.1"
   peerDependencies:
     react: ">=17"
     react-dom: ">=17"
     viem: ">=1.0.0"
     wagmi: ">=1.0.0"
-  checksum: 3e375c46acede3e10ef7e276c11886854643d87edede5e2a793a3005109de1587b0591c9266d24b5fe1f5383dcc7463ed0c8349e6f26e2d00c4f928a2ce9c447
+  checksum: ecb329005a6fa253b8931cfadb1ee1a696d2473c8c0ed6d2f9551f1d30bff2902543f4a9e222e5dbd41db1abe113d98af187edf21de59f63780416c747486e03
   languageName: node
   linkType: hard
 
@@ -2629,10 +2629,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/query-devtools@npm:5.12.1":
-  version: 5.12.1
-  resolution: "@tanstack/query-devtools@npm:5.12.1"
-  checksum: 8cb7d1de1da0c1eb5481ab751c41c6097787bc6cdfbb8d11710c54ff6c80e6f106182147f479c494572a61e4154f22199db9aa1b02ca5fa6e0fc53bbce822f01
+"@tanstack/query-devtools@npm:5.13.3":
+  version: 5.13.3
+  resolution: "@tanstack/query-devtools@npm:5.13.3"
+  checksum: 3c54ce1ac3f8482210816e5ad79c607c5b6073ed225c33dacf0f8366af02fd5677ecd2674fa490f7ac0b3af4d56ee4d844bac207e50f9a49caaea57b0439e799
   languageName: node
   linkType: hard
 
@@ -2654,15 +2654,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query-devtools@npm:^5.12.2":
-  version: 5.12.2
-  resolution: "@tanstack/react-query-devtools@npm:5.12.2"
+"@tanstack/react-query-devtools@npm:^5.13.3":
+  version: 5.13.3
+  resolution: "@tanstack/react-query-devtools@npm:5.13.3"
   dependencies:
-    "@tanstack/query-devtools": "npm:5.12.1"
+    "@tanstack/query-devtools": "npm:5.13.3"
   peerDependencies:
     "@tanstack/react-query": ^5.12.2
     react: ^18.0.0
-  checksum: c5babdea179484fab3d97a5b1250f9d5a631d966d12e857851115324434d56bb4c35ed2bd561843066d2a5a495fe58a644b86089b2e34dbba28f416dc32a0397
+  checksum: 2ee1b5d23d9dc982d7943af5e45e7824f03bf72314fa593a5b8cf50d69b238b54498a053180efe7c731a6472a7c8cdbb991cb89cc59a6af12c8626ec529588d0
   languageName: node
   linkType: hard
 
@@ -6548,12 +6548,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"i18next@npm:^23.7.7":
-  version: 23.7.7
-  resolution: "i18next@npm:23.7.7"
+"i18next@npm:^23.7.8":
+  version: 23.7.8
+  resolution: "i18next@npm:23.7.8"
   dependencies:
     "@babel/runtime": "npm:^7.23.2"
-  checksum: 8b40f507dccb2e0861252627740c8a7f8aba01748172ec726a58f886336698290e354377490dfb3fcef5bd0186ecf9d2c52a98e7648276dc4585d3535d6ffeef
+  checksum: 1f6c472d167f02c1f3274ed16649fba03405a561e27f34721e93a3dd4aa585e12a6a7d9c9910282f113b058127ae130b824ba505e020c205e04405035ed31f2e
   languageName: node
   linkType: hard
 
@@ -8827,10 +8827,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"reselect@npm:^4.1.8":
-  version: 4.1.8
-  resolution: "reselect@npm:4.1.8"
-  checksum: 06a305a504affcbb67dd0561ddc8306b35796199c7e15b38934c80606938a021eadcf68cfd58e7bb5e17786601c37602a3362a4665c7bf0a96c1041ceee9d0b7
+"reselect@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "reselect@npm:5.0.1"
+  checksum: 0724b4555cd6411849de334a75177780f127af849eb71c4b709966d07ade8090d125c0c926dc6cf936866d23ebadda6aad1da93cd8340525323b889f25d56d51
   languageName: node
   linkType: hard
 
@@ -9239,7 +9239,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "standalone-dapp@workspace:."
   dependencies:
-    "@stakekit/widget": "npm:^0.0.78"
+    "@stakekit/widget": "npm:^0.0.79"
     "@types/eslint": "npm:^8.44.8"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.47.5"
