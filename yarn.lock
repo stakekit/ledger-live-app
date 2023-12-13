@@ -2521,14 +2521,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/api-hooks@npm:^0.0.44":
-  version: 0.0.44
-  resolution: "@stakekit/api-hooks@npm:0.0.44"
+"@stakekit/api-hooks@npm:^0.0.45":
+  version: 0.0.45
+  resolution: "@stakekit/api-hooks@npm:0.0.45"
   dependencies:
     "@tanstack/react-query": "npm:^5.12.2"
     axios: "npm:^1.6.2"
     lodash.merge: "npm:^4.6.2"
-  checksum: 8bd0b2bcd938fead333eeb558e97a85bc9feae86a45b55bd9d06ce19a2c5d1c805293e5d71a49b1ad828559934b09f642d51b6254bc57d039cc74759d56a0b02
+  checksum: 24852455d867e62201bb2dc0cf091c1e00ffad1883385e58a7b8a460268c18f6325dfc8bbe52dbfb24d15fcb7c9cf2753a609a855de06b25e04ccb6a245fb5b0
   languageName: node
   linkType: hard
 
@@ -2560,9 +2560,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:^0.0.79":
-  version: 0.0.79
-  resolution: "@stakekit/widget@npm:0.0.79"
+"@stakekit/widget@npm:^0.0.80":
+  version: 0.0.80
+  resolution: "@stakekit/widget@npm:0.0.80"
   dependencies:
     "@cassiozen/usestatemachine": "npm:^1.0.1"
     "@cosmjs/amino": "npm:^0.32.0"
@@ -2575,7 +2575,7 @@ __metadata:
     "@cosmos-kit/walletconnect": "npm:2.4.10"
     "@ledgerhq/wallet-api-client": "npm:^1.4.0"
     "@radix-ui/react-alert-dialog": "npm:^1.0.5"
-    "@stakekit/api-hooks": "npm:^0.0.44"
+    "@stakekit/api-hooks": "npm:^0.0.45"
     "@stakekit/common": "npm:^0.0.22"
     "@stakekit/rainbowkit": "npm:^1.3.0"
     "@tanstack/react-query": "npm:^5.12.2"
@@ -2602,7 +2602,7 @@ __metadata:
     react-dom: ">=17"
     viem: ">=1.0.0"
     wagmi: ">=1.0.0"
-  checksum: ecb329005a6fa253b8931cfadb1ee1a696d2473c8c0ed6d2f9551f1d30bff2902543f4a9e222e5dbd41db1abe113d98af187edf21de59f63780416c747486e03
+  checksum: 3e297ed3f44ebb8167642edd18d56ee1c1ec9f2bdebae6032d83a9ccc7db5d563085e7e3fe90ac8130aa13cd3269e8d80559dc10de228650c96d49b5b8c5ed16
   languageName: node
   linkType: hard
 
@@ -9239,7 +9239,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "standalone-dapp@workspace:."
   dependencies:
-    "@stakekit/widget": "npm:^0.0.79"
+    "@stakekit/widget": "npm:^0.0.80"
     "@types/eslint": "npm:^8.44.8"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.47.5"
