@@ -1340,13 +1340,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ledgerhq/connect-kit-loader@npm:^1.1.0":
-  version: 1.1.2
-  resolution: "@ledgerhq/connect-kit-loader@npm:1.1.2"
-  checksum: 82482d21db3cde4c4d8806cf20a2bd9ee23964d9dbaa349b631be5cc405b7f4562ba7285d3337e147936090955c278644f6d996e3e61a506fd9ccebdb1d45744
-  languageName: node
-  linkType: hard
-
 "@ledgerhq/devices@npm:^8.0.7":
   version: 8.0.7
   resolution: "@ledgerhq/devices@npm:8.0.7"
@@ -2254,27 +2247,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@safe-global/safe-apps-provider@npm:^0.17.1":
-  version: 0.17.1
-  resolution: "@safe-global/safe-apps-provider@npm:0.17.1"
+"@safe-global/safe-apps-provider@npm:^0.18.1":
+  version: 0.18.1
+  resolution: "@safe-global/safe-apps-provider@npm:0.18.1"
   dependencies:
-    "@safe-global/safe-apps-sdk": "npm:8.0.0"
+    "@safe-global/safe-apps-sdk": "npm:^8.1.0"
     events: "npm:^3.3.0"
-  checksum: cec18ade4630fbbee3a3fc39082a522b37f863461224e9dc9ba3858471bdb649c7e46cf07902d00fa8f638d30fb3d7cd2d4f5db89ac8d1cb41d6de51dd141625
+  checksum: 9e6375132930cedd0935baa83cd026eb7c76776c7285edb3ff8c463ccf48d1e30cea03e93ce7199d3d3efa3cd035495e5f85fc361e203a2c03a4459d1989e726
   languageName: node
   linkType: hard
 
-"@safe-global/safe-apps-sdk@npm:8.0.0":
-  version: 8.0.0
-  resolution: "@safe-global/safe-apps-sdk@npm:8.0.0"
-  dependencies:
-    "@safe-global/safe-gateway-typescript-sdk": "npm:^3.5.3"
-    viem: "npm:^1.0.0"
-  checksum: d8698518e0f386e444cae6115937f8c962839ee58a4dd3860ce0731c5c18928889bdcdbe68443edcc48fccc55776d90f47b1810833f9f71baac4a15491c2fc00
-  languageName: node
-  linkType: hard
-
-"@safe-global/safe-apps-sdk@npm:^8.0.0":
+"@safe-global/safe-apps-sdk@npm:^8.1.0":
   version: 8.1.0
   resolution: "@safe-global/safe-apps-sdk@npm:8.1.0"
   dependencies:
@@ -3243,14 +3226,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wagmi/connectors@npm:3.1.6":
-  version: 3.1.6
-  resolution: "@wagmi/connectors@npm:3.1.6"
+"@wagmi/connectors@npm:3.1.10":
+  version: 3.1.10
+  resolution: "@wagmi/connectors@npm:3.1.10"
   dependencies:
     "@coinbase/wallet-sdk": "npm:^3.6.6"
-    "@ledgerhq/connect-kit-loader": "npm:^1.1.0"
-    "@safe-global/safe-apps-provider": "npm:^0.17.1"
-    "@safe-global/safe-apps-sdk": "npm:^8.0.0"
+    "@safe-global/safe-apps-provider": "npm:^0.18.1"
+    "@safe-global/safe-apps-sdk": "npm:^8.1.0"
     "@walletconnect/ethereum-provider": "npm:2.10.6"
     "@walletconnect/legacy-provider": "npm:^2.0.0"
     "@walletconnect/modal": "npm:2.6.2"
@@ -3263,15 +3245,15 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: b917100005a26a7ae752149d5e83cb7007e227719be04e5d7e7618ad4eed7b75e75e8ee7566fbd05abdab2b2bab0808aee73a27c36a23b2e4ac76fbd10203798
+  checksum: c41f182a74c65c95e97fd453350825183e7a4c5961b5def90eb0a26a5d320bb81dcf1d93d48b0fbafe58a1445bce37d7480aa539c04a5567705032c630159776
   languageName: node
   linkType: hard
 
-"@wagmi/core@npm:1.4.8":
-  version: 1.4.8
-  resolution: "@wagmi/core@npm:1.4.8"
+"@wagmi/core@npm:1.4.12":
+  version: 1.4.12
+  resolution: "@wagmi/core@npm:1.4.12"
   dependencies:
-    "@wagmi/connectors": "npm:3.1.6"
+    "@wagmi/connectors": "npm:3.1.10"
     abitype: "npm:0.8.7"
     eventemitter3: "npm:^4.0.7"
     zustand: "npm:^4.3.1"
@@ -3281,7 +3263,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: ba336a99a0b063a6e453139cc23e8f720cdcbff05fe94c664387a36cca4d2d014b76e87c0eaebe24c6bba9e726c2d207ba28fb781785b466f3a9da0882a6c7f0
+  checksum: 4924a0f14aa5b332032529939704df13d3ebbb6adfd060337277498912d0f3746cee0809e76e94017f4b0a983d380971b4f81469490e0b918192fe61b5ab82b6
   languageName: node
   linkType: hard
 
@@ -10139,13 +10121,13 @@ __metadata:
   linkType: hard
 
 "wagmi@npm:^1.4.8":
-  version: 1.4.8
-  resolution: "wagmi@npm:1.4.8"
+  version: 1.4.12
+  resolution: "wagmi@npm:1.4.12"
   dependencies:
     "@tanstack/query-sync-storage-persister": "npm:^4.27.1"
     "@tanstack/react-query": "npm:^4.28.0"
     "@tanstack/react-query-persist-client": "npm:^4.28.0"
-    "@wagmi/core": "npm:1.4.8"
+    "@wagmi/core": "npm:1.4.12"
     abitype: "npm:0.8.7"
     use-sync-external-store: "npm:^1.2.0"
   peerDependencies:
@@ -10155,7 +10137,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: d73281b011eb78fbd30f0b4c4a1c4f2d8ced1c533a32642fead111a25b9a2d70aae766857fa0db72efcc2a19e3803c4e20596696c49ba4ff2733be52e7cfdbd6
+  checksum: 645211638117c24fb4d9229654b202c6d86da5ea268e919081b5ee2116388c0254ff37dcae3b6b90a8e88568915f056bdd44007041a51f5ea585ae78e5eeae6e
   languageName: node
   linkType: hard
 
