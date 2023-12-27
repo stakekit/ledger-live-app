@@ -2777,9 +2777,9 @@ __metadata:
   linkType: hard
 
 "@types/mixpanel-browser@npm:^2.47.5":
-  version: 2.47.5
-  resolution: "@types/mixpanel-browser@npm:2.47.5"
-  checksum: 70f97f35b50ae9b5673d2d0b0f5d2ce7b9a6fa7ace8823d89b663cce84423b3c97e7c6018af4178267bc8f98868fd131025c61a7e9f13929e0001e510153fcc2
+  version: 2.48.1
+  resolution: "@types/mixpanel-browser@npm:2.48.1"
+  checksum: 1fe767fac73f72c2a2b110aa93676aae448209b38328bac3d64e79e558f9fcb47a92fa1749fc18256d29759163a4ec9bdbe7df0aff403079f1885bbecbaf347c
   languageName: node
   linkType: hard
 
