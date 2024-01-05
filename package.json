@@ -28,7 +28,7 @@
     "react-dom": "18.2.0",
     "typescript": "5.3.3",
     "viem": "^1.19.15",
-    "wagmi": "^1.4.12"
+    "wagmi": "^2.0.0"
   },
   "devDependencies": {
     "@types/eslint": "^8.44.9",
