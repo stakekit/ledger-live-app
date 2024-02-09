@@ -23,7 +23,7 @@ export const Widget = () => {
           ...darkTheme,
           color: {
             ...darkTheme.color,
-            background: "#000000B2",
+            background: "rgba(0, 0, 0, 0.83)",
             modalBodyBackground: "#121415",
             selectValidatorMultiDefaultBackground: "#121415",
             positionsSectionBackgroundColor: "#121415",
