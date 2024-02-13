@@ -3099,9 +3099,9 @@ __metadata:
   linkType: hard
 
 "@types/mixpanel-browser@npm:^2.48.1":
-  version: 2.48.1
-  resolution: "@types/mixpanel-browser@npm:2.48.1"
-  checksum: 1fe767fac73f72c2a2b110aa93676aae448209b38328bac3d64e79e558f9fcb47a92fa1749fc18256d29759163a4ec9bdbe7df0aff403079f1885bbecbaf347c
+  version: 2.49.0
+  resolution: "@types/mixpanel-browser@npm:2.49.0"
+  checksum: e440511f2658fea16cc74ade36c1f6ec25b1bb83b5d3427e890f92c71ab6ff95bd8b829ba39c8fea6b576cdf16a3287d06fe8a56bfa0b4c29ffffd66dcdcb3fa
   languageName: node
   linkType: hard
 
@@ -8083,9 +8083,9 @@ __metadata:
   linkType: hard
 
 "mixpanel-browser@npm:^2.48.1":
-  version: 2.48.1
-  resolution: "mixpanel-browser@npm:2.48.1"
-  checksum: 6e5034239635aa788823295c8f7d0b4c14362a184658cd9089122dc3097495c0719f04e7091563a3e27db589f9a95d75739a53356d823aacc06fce32d44016f0
+  version: 2.49.0
+  resolution: "mixpanel-browser@npm:2.49.0"
+  checksum: 1a85781a2fe2d6530a7ab7a25bece4de3f88e97d1d61c2c1cb0838af1ff72ce4ab2bf93a86e12e19b0b068b8701d5865706dba76e90ef4bd589b8e35ac38c1e1
   languageName: node
   linkType: hard
 
