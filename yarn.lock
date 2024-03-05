@@ -3081,16 +3081,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/api-hooks@npm:^0.0.57":
-  version: 0.0.57
-  resolution: "@stakekit/api-hooks@npm:0.0.57"
+"@stakekit/api-hooks@npm:^0.0.58":
+  version: 0.0.58
+  resolution: "@stakekit/api-hooks@npm:0.0.58"
   dependencies:
     "@faker-js/faker": "npm:^8.4.1"
     "@tanstack/react-query": "npm:^5.24.1"
     axios: "npm:^1.6.7"
     lodash.merge: "npm:^4.6.2"
     msw: "npm:^2.2.2"
-  checksum: 10c0/2031aae0337fc0f79a18aedf7de7055df2331771f2981718b568c5e40b0bd643b64778d8e002ff48354c6874acd89b6791079cac39beb6f261982ff7b14c562a
+  checksum: 10c0/db2671083429aed5090a0744c86a1321bcab96685a0a63a58fd90712233fb538eb8bb42ae588f71f646166bd489b18617a1c9a4c1d4ae1e4e8bd59188e76aafd
   languageName: node
   linkType: hard
 
@@ -3132,9 +3132,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:^0.0.109":
-  version: 0.0.109
-  resolution: "@stakekit/widget@npm:0.0.109"
+"@stakekit/widget@npm:^0.0.112":
+  version: 0.0.112
+  resolution: "@stakekit/widget@npm:0.0.112"
   dependencies:
     "@cassiozen/usestatemachine": "npm:^1.0.1"
     "@cosmjs/amino": "npm:^0.32.2"
@@ -3148,7 +3148,7 @@ __metadata:
     "@ledgerhq/wallet-api-client": "npm:^1.5.5"
     "@radix-ui/react-alert-dialog": "npm:^1.0.5"
     "@radix-ui/react-dropdown-menu": "npm:^2.0.6"
-    "@stakekit/api-hooks": "npm:^0.0.57"
+    "@stakekit/api-hooks": "npm:^0.0.58"
     "@stakekit/common": "npm:^0.0.25"
     "@stakekit/rainbowkit": "npm:^1.3.10"
     "@tanstack/react-query": "npm:^5.24.1"
@@ -3181,7 +3181,7 @@ __metadata:
     react-dom: ">=18"
     viem: ">=1.0.0"
     wagmi: ">=1.0.0"
-  checksum: 10c0/67f44e34c439f68712cc69f600efc39dce9ca663d4f7f4931dbc59fdccddf067c94462b01c7e322d533e313fe7308ed6bb5e6419e5e88c675adfa2af62f1532a
+  checksum: 10c0/ce848f2c281e7a208d2a7f26a696b260fb986b72cba82bdb1a1bfd9a266019e35b7782037794d21790085f22cb215f5be4768e1ab66fa0dcddbab6d3b13b923c
   languageName: node
   linkType: hard
 
@@ -10197,7 +10197,7 @@ __metadata:
   resolution: "standalone-dapp@workspace:."
   dependencies:
     "@stakekit/fluid-animation": "npm:^0.0.1"
-    "@stakekit/widget": "npm:^0.0.109"
+    "@stakekit/widget": "npm:^0.0.112"
     "@types/eslint": "npm:^8.56.5"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.49.0"
