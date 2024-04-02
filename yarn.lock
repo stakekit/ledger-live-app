@@ -1646,18 +1646,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ledgerhq/devices@npm:^8.0.7":
-  version: 8.0.7
-  resolution: "@ledgerhq/devices@npm:8.0.7"
-  dependencies:
-    "@ledgerhq/errors": "npm:^6.14.0"
-    "@ledgerhq/logs": "npm:^6.10.1"
-    rxjs: "npm:6"
-    semver: "npm:^7.3.5"
-  checksum: 10c0/5a8bdde14f89ddc0152a5d3e786703cb705802fc8f9d8b94b658807eb30a9a524f3b255a6966bc82219fe26b765ca817a0c07e40e24a0c3a210f53185bae0437
-  languageName: node
-  linkType: hard
-
 "@ledgerhq/devices@npm:^8.2.0":
   version: 8.2.0
   resolution: "@ledgerhq/devices@npm:8.2.0"
@@ -1670,6 +1658,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ledgerhq/devices@npm:^8.2.2":
+  version: 8.2.2
+  resolution: "@ledgerhq/devices@npm:8.2.2"
+  dependencies:
+    "@ledgerhq/errors": "npm:^6.16.3"
+    "@ledgerhq/logs": "npm:^6.12.0"
+    rxjs: "npm:^7.8.1"
+    semver: "npm:^7.3.5"
+  checksum: 10c0/c9bd63858ac4ce37a8e8fa3523ec1ed343b381d9711404d4334ef89d8cc8898af85e951b48ad962dce9a9c98344f0942393b69e52627cc34ec6e1b0dc93a5bbd
+  languageName: node
+  linkType: hard
+
 "@ledgerhq/errors@npm:^6.10.0, @ledgerhq/errors@npm:^6.16.1":
   version: 6.16.1
   resolution: "@ledgerhq/errors@npm:6.16.1"
@@ -1677,10 +1677,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ledgerhq/errors@npm:^6.14.0":
-  version: 6.14.0
-  resolution: "@ledgerhq/errors@npm:6.14.0"
-  checksum: 10c0/e1505f1908234476a57c103c601435d75b17dde7a2f0ee74b28fcad55a56df1eeefa9bdedc4c290cf1eb0098e7aaf1ca659ec6db079d5671132c0aa6d3167660
+"@ledgerhq/errors@npm:^6.16.2, @ledgerhq/errors@npm:^6.16.3":
+  version: 6.16.3
+  resolution: "@ledgerhq/errors@npm:6.16.3"
+  checksum: 10c0/12e8e39317aac45694ae0f01f20b870a933611cd31187fc6ff63f268154b58f99d34b02f5dc033cbe3aebbe6fbfcd6f19aea842b7de22b5d8e051aef2fb94f94
   languageName: node
   linkType: hard
 
@@ -1728,14 +1728,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ledgerhq/hw-transport@npm:^6.28.8":
-  version: 6.28.8
-  resolution: "@ledgerhq/hw-transport@npm:6.28.8"
+"@ledgerhq/hw-transport@npm:^6.30.4":
+  version: 6.30.5
+  resolution: "@ledgerhq/hw-transport@npm:6.30.5"
   dependencies:
-    "@ledgerhq/devices": "npm:^8.0.7"
-    "@ledgerhq/errors": "npm:^6.14.0"
+    "@ledgerhq/devices": "npm:^8.2.2"
+    "@ledgerhq/errors": "npm:^6.16.3"
+    "@ledgerhq/logs": "npm:^6.12.0"
     events: "npm:^3.3.0"
-  checksum: 10c0/adf3b154cfc08b25b9eba7bad67877b2cbf3cd44514b82fccb5b75e2a67ec01802d7d4528c7f71c46d574860255e61545c216c1293f9eed59e8513f6858f42d5
+  checksum: 10c0/ef80bb7d5839e3f2dc278fc4aaa2a2e74766cce80cfc0c42958601ce231ce576e2cd318ead971aa09263e43592160a5256a945ccb31dc542a341ad26f871102f
   languageName: node
   linkType: hard
 
@@ -1746,33 +1747,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ledgerhq/logs@npm:^6.10.1":
-  version: 6.10.1
-  resolution: "@ledgerhq/logs@npm:6.10.1"
-  checksum: 10c0/49cfb88b30a52f14445666df6ab7afd24d6df95fbfd52a05debaa3cd5d9156e366672311e4905873c6f2aa096fbfe2874560ad028796c2f4d64de49d9f037fb4
+"@ledgerhq/wallet-api-client@npm:^1.5.6":
+  version: 1.5.6
+  resolution: "@ledgerhq/wallet-api-client@npm:1.5.6"
+  dependencies:
+    "@ledgerhq/hw-transport": "npm:^6.30.4"
+    "@ledgerhq/wallet-api-core": "npm:1.8.0"
+    bignumber.js: "npm:^9.1.2"
+  checksum: 10c0/4b42f92d5cec0e8d2fb4df2956d526fd822984826984dbbc557eba9cc7c2290d2d304599cd3b30077144374c6380a6497d6f04ba52329bc0438801cfd2b10a87
   languageName: node
   linkType: hard
 
-"@ledgerhq/wallet-api-client@npm:^1.5.5":
-  version: 1.5.5
-  resolution: "@ledgerhq/wallet-api-client@npm:1.5.5"
+"@ledgerhq/wallet-api-core@npm:1.8.0":
+  version: 1.8.0
+  resolution: "@ledgerhq/wallet-api-core@npm:1.8.0"
   dependencies:
-    "@ledgerhq/hw-transport": "npm:^6.28.8"
-    "@ledgerhq/wallet-api-core": "npm:1.7.2"
+    "@ledgerhq/errors": "npm:^6.16.2"
     bignumber.js: "npm:^9.1.2"
-  checksum: 10c0/ee3e30396180a0c1b9a22da596d50230a77fab4466b121a9859be38e306e1e125989d70e1ac891ecb001c4c764897972635b3cc59a91464d7506fbb610171312
-  languageName: node
-  linkType: hard
-
-"@ledgerhq/wallet-api-core@npm:1.7.2":
-  version: 1.7.2
-  resolution: "@ledgerhq/wallet-api-core@npm:1.7.2"
-  dependencies:
-    "@ledgerhq/errors": "npm:^6.14.0"
-    bignumber.js: "npm:^9.1.2"
-    uuid: "npm:^9.0.0"
-    zod: "npm:^3.22.2"
-  checksum: 10c0/cd8aa83ae1e6df0bbd7e71c036e5880f4db7320b3988decada77c84d4b624de3d6d34d01e759df9336ea8fbf2848d9643ece7b047aecaeacb03cf018c435c5c4
+    uuid: "npm:^9.0.1"
+    zod: "npm:^3.22.4"
+  checksum: 10c0/0e82d194089c3309bec337faa9717fcd1a79e4ec709dfb320904452f79e2421063a19cbe793d0b56df77a9058d17b03b6e16eb869144027603ad59413d833d82
   languageName: node
   linkType: hard
 
@@ -3532,9 +3526,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:^0.0.128":
-  version: 0.0.128
-  resolution: "@stakekit/widget@npm:0.0.128"
+"@stakekit/widget@npm:^0.0.129":
+  version: 0.0.129
+  resolution: "@stakekit/widget@npm:0.0.129"
   dependencies:
     "@cassiozen/usestatemachine": "npm:^1.0.1"
     "@cosmjs/amino": "npm:^0.32.3"
@@ -3543,7 +3537,7 @@ __metadata:
     "@cosmos-kit/keplr": "npm:^2.6.9"
     "@cosmos-kit/leap": "npm:^2.6.12"
     "@cosmos-kit/walletconnect": "npm:2.5.9"
-    "@ledgerhq/wallet-api-client": "npm:^1.5.5"
+    "@ledgerhq/wallet-api-client": "npm:^1.5.6"
     "@radix-ui/react-alert-dialog": "npm:^1.0.5"
     "@radix-ui/react-dropdown-menu": "npm:^2.0.6"
     "@stakekit/api-hooks": "npm:^0.0.65"
@@ -3581,7 +3575,7 @@ __metadata:
     react-dom: ">=18"
     viem: ">=2"
     wagmi: ">=2"
-  checksum: 10c0/ddd05b55865a7427c2d5d86247c21b5ad4fbcef9e3639178e4e13320711559075af1cdec4d0a65363df704cd49fb7b1eea8a516d22bf155a2183962c0f6e5c5d
+  checksum: 10c0/5345be712af696ece1f8d8d40eb2e81297f498ed63941810b1318471194092ebb81325b9c7cc9b4e49cbc75db21d158c574ad0375458978a6d835842eb6bc9df
   languageName: node
   linkType: hard
 
@@ -11057,7 +11051,7 @@ __metadata:
   resolution: "standalone-dapp@workspace:."
   dependencies:
     "@stakekit/fluid-animation": "npm:^0.0.1"
-    "@stakekit/widget": "npm:^0.0.128"
+    "@stakekit/widget": "npm:^0.0.129"
     "@types/eslint": "npm:^8.56.7"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.49.0"
@@ -11862,7 +11856,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^9.0.0, uuid@npm:^9.0.1":
+"uuid@npm:^9.0.1":
   version: 9.0.1
   resolution: "uuid@npm:9.0.1"
   bin:
@@ -12471,10 +12465,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:^3.22.2":
-  version: 3.22.2
-  resolution: "zod@npm:3.22.2"
-  checksum: 10c0/10afd994bcec3affb81776adc486871bfa6790037f57f0e45280e99baed8c3df5f46c5ab65a6d7921a00dffd9fab299e4492519dd6bb5d2eb3de9a67d3eb8051
+"zod@npm:^3.22.4":
+  version: 3.22.4
+  resolution: "zod@npm:3.22.4"
+  checksum: 10c0/7578ab283dac0eee66a0ad0fc4a7f28c43e6745aadb3a529f59a4b851aa10872b3890398b3160f257f4b6817b4ce643debdda4fb21a2c040adda7862cab0a587
   languageName: node
   linkType: hard
 
