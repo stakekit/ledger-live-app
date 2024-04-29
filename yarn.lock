@@ -1192,28 +1192,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:^1.14.0":
-  version: 1.14.0
-  resolution: "@vanilla-extract/css@npm:1.14.0"
-  dependencies:
-    "@emotion/hash": "npm:^0.9.0"
-    "@vanilla-extract/private": "npm:^1.0.3"
-    chalk: "npm:^4.1.1"
-    css-what: "npm:^6.1.0"
-    cssesc: "npm:^3.0.0"
-    csstype: "npm:^3.0.7"
-    deep-object-diff: "npm:^1.1.9"
-    deepmerge: "npm:^4.2.2"
-    media-query-parser: "npm:^2.0.2"
-    modern-ahocorasick: "npm:^1.0.0"
-    outdent: "npm:^0.8.0"
-  checksum: 10c0/8e5d6419af7249c873db4acf9751044245a004133073fe6c85ae800f6b88794ac4e323612c2dc6fa67ea797bdebf57432f153311e86ab3707110f18d5b038557
-  languageName: node
-  linkType: hard
-
-"@vanilla-extract/css@npm:^1.14.2":
-  version: 1.14.2
-  resolution: "@vanilla-extract/css@npm:1.14.2"
+"@vanilla-extract/css@npm:^1.14.0, @vanilla-extract/css@npm:^1.14.2":
+  version: 1.15.0
+  resolution: "@vanilla-extract/css@npm:1.15.0"
   dependencies:
     "@emotion/hash": "npm:^0.9.0"
     "@vanilla-extract/private": "npm:^1.0.4"
@@ -1226,7 +1207,7 @@ __metadata:
     media-query-parser: "npm:^2.0.2"
     modern-ahocorasick: "npm:^1.0.0"
     outdent: "npm:^0.8.0"
-  checksum: 10c0/3a0d57815afbd8131b8235fc38a9f74413f7a0d46e5d59dc7aa404123e50168a646fbd765c4b55cdac0fc67f0c2695b1e6feecd16ac8d92887f3858ba273aa99
+  checksum: 10c0/18d06317e5b1f1c1229cdfbe5ad8341b021c6aca752dd5b9e1f029fe0e58908b3498f1d8a4bcb118d59072c1704ad88fbe5b615b4bdc12296c508820aaca4b7b
   languageName: node
   linkType: hard
 
