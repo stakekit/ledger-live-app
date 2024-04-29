@@ -844,6 +844,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rrweb/types@npm:^2.0.0-alpha.4":
+  version: 2.0.0-alpha.13
+  resolution: "@rrweb/types@npm:2.0.0-alpha.13"
+  dependencies:
+    rrweb-snapshot: "npm:^2.0.0-alpha.13"
+  checksum: 10c0/d8cfa6305a27e40ab5c240d3ce955092dbfa288e0b66f7d39e985f34fc65552b9b89c96210c51620dd3d8e58c3c7c5250940c00d07bbd442f8a4d6e56ff44b99
+  languageName: node
+  linkType: hard
+
 "@rushstack/eslint-patch@npm:^1.3.3":
   version: 1.5.1
   resolution: "@rushstack/eslint-patch@npm:1.5.1"
@@ -892,6 +901,13 @@ __metadata:
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
   checksum: 10c0/073bfa548026b1ebaf1659eb8961e526be22fa77139b10d60e712f46d2f0f05f4e6c8bec62a087d41088ee9e29faa7f54838568e475ab2f776171003c3920858
+  languageName: node
+  linkType: hard
+
+"@types/css-font-loading-module@npm:0.0.7":
+  version: 0.0.7
+  resolution: "@types/css-font-loading-module@npm:0.0.7"
+  checksum: 10c0/a74759a14bcc7d60a1a1d863b53b7638d4aa7f88f1d97347426262cc6fe8f9335d8fa80c7e0608cd67e33ff0067608e9b5475a1227a684e1dfad3cac87df1405
   languageName: node
   linkType: hard
 
@@ -1340,6 +1356,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@xstate/fsm@npm:^1.4.0":
+  version: 1.6.5
+  resolution: "@xstate/fsm@npm:1.6.5"
+  checksum: 10c0/472fe625b84b9e7102b8774e80c441b8b7dbc9585e700223d9c7a39c583d38ba50636909a5d749d44b361555daa841862f932a29c52b81c8829a74884e715bf4
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:^1.0.0":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -1615,6 +1638,13 @@ __metadata:
   version: 1.0.2
   resolution: "balanced-match@npm:1.0.2"
   checksum: 10c0/9308baf0a7e4838a82bbfd11e01b1cb0f0cf2893bc1676c27c2a8c0e70cbae1c59120c3268517a8ae7fb6376b4639ef81ca22582611dbee4ed28df945134aaee
+  languageName: node
+  linkType: hard
+
+"base64-arraybuffer@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "base64-arraybuffer@npm:1.0.2"
+  checksum: 10c0/3acac95c70f9406e87a41073558ba85b6be9dbffb013a3d2a710e3f2d534d506c911847d5d9be4de458af6362c676de0a5c4c2d7bdf4def502d00b313368e72f
   languageName: node
   linkType: hard
 
@@ -2589,6 +2619,13 @@ __metadata:
   dependencies:
     reusify: "npm:^1.0.4"
   checksum: 10c0/5ce4f83afa5f88c9379e67906b4d31bc7694a30826d6cc8d0f0473c966929017fda65c2174b0ec89f064ede6ace6c67f8a4fe04cef42119b6a55b0d465554c24
+  languageName: node
+  linkType: hard
+
+"fflate@npm:^0.4.4":
+  version: 0.4.8
+  resolution: "fflate@npm:0.4.8"
+  checksum: 10c0/29d1eddaaa5deab61b1c6b0d21282adacadbc4d2c01e94d8b1ee784398151673b9c563e53f97a801bc410a1ae55e8de5378114a743430e643e7a0644ba8e5a42
   languageName: node
   linkType: hard
 
@@ -3719,10 +3756,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mitt@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "mitt@npm:3.0.1"
+  checksum: 10c0/3ab4fdecf3be8c5255536faa07064d05caa3dd332bd318ff02e04621f7b3069ca1de9106cfe8e7ced675abfc2bec2ce4c4ef321c4a1bb1fb29df8ae090741913
+  languageName: node
+  linkType: hard
+
 "mixpanel-browser@npm:^2.49.0":
-  version: 2.49.0
-  resolution: "mixpanel-browser@npm:2.49.0"
-  checksum: 10c0/1a85781a2fe2d6530a7ab7a25bece4de3f88e97d1d61c2c1cb0838af1ff72ce4ab2bf93a86e12e19b0b068b8701d5865706dba76e90ef4bd589b8e35ac38c1e1
+  version: 2.50.0
+  resolution: "mixpanel-browser@npm:2.50.0"
+  dependencies:
+    rrweb: "npm:2.0.0-alpha.4"
+  checksum: 10c0/c0cd94a2cbb68fe8ba24f1250323d8ab14a58dca0f085f05664dc969d1222206b1b901453af86b4113b29178b8bcb2d3fb129074987643e1f6451889c7bd6ed7
   languageName: node
   linkType: hard
 
@@ -4435,6 +4481,38 @@ __metadata:
   bin:
     rollup: dist/bin/rollup
   checksum: 10c0/fcd9ab091cd2e604525ab919137f7868f002e27dc12921a3e09be2c85fa6e477c9dbd7ca54730500622db64e1fa53d1e5e2db3567e273a31d96d594932c8ae3b
+  languageName: node
+  linkType: hard
+
+"rrdom@npm:^0.1.7":
+  version: 0.1.7
+  resolution: "rrdom@npm:0.1.7"
+  dependencies:
+    rrweb-snapshot: "npm:^2.0.0-alpha.4"
+  checksum: 10c0/2e06c90f1e3d8a329edb9526ceaf25f2ca09b4a8dffd171577751a94fdc0ec0e56ab899be1f8f775fd6bf76a1268507767a2aa336a6c1d8a189022909cde7726
+  languageName: node
+  linkType: hard
+
+"rrweb-snapshot@npm:^2.0.0-alpha.13, rrweb-snapshot@npm:^2.0.0-alpha.4":
+  version: 2.0.0-alpha.13
+  resolution: "rrweb-snapshot@npm:2.0.0-alpha.13"
+  checksum: 10c0/e5b25b843f769436432c44ffc45c718d0a5b17711d66a0ad0ec47a164339f01750b54e46f07aa23f3d5df41d7587327c67d46d8d0e5eaf72221c6461db7726cc
+  languageName: node
+  linkType: hard
+
+"rrweb@npm:2.0.0-alpha.4":
+  version: 2.0.0-alpha.4
+  resolution: "rrweb@npm:2.0.0-alpha.4"
+  dependencies:
+    "@rrweb/types": "npm:^2.0.0-alpha.4"
+    "@types/css-font-loading-module": "npm:0.0.7"
+    "@xstate/fsm": "npm:^1.4.0"
+    base64-arraybuffer: "npm:^1.0.1"
+    fflate: "npm:^0.4.4"
+    mitt: "npm:^3.0.0"
+    rrdom: "npm:^0.1.7"
+    rrweb-snapshot: "npm:^2.0.0-alpha.4"
+  checksum: 10c0/124de86bc4db3d3254309950a5fef1c0ed2ad283a4db5840c43eba8d4157738f1fd833e15c3201e6754aa0bec2e3f7ed7fdf7a5335262626e15691afc2cf4f24
   languageName: node
   linkType: hard
 
