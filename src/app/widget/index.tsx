@@ -3,14 +3,9 @@
 import "@stakekit/widget/style.css"
 import { SKApp, darkTheme } from "@stakekit/widget"
 import { config } from "../../config"
-import mixpanel from "mixpanel-browser"
 import { tracking } from "../tracking"
 import Script from "next/script"
 import { useState } from "react"
-
-typeof window !== "undefined" &&
-  config.mixPanelToken &&
-  mixpanel.init(config.mixPanelToken)
 
 export const Widget = () => {
   const [address, setAddress] = useState<string | undefined>(undefined)
@@ -64,21 +59,26 @@ export const Widget = () => {
             const event = args[0]
 
             switch (event) {
-              case "Connected wallet":
-                window.Intercom?.("update", { address: args[1]?.address })
-                setAddress(args[1]?.address)
-                break
+              case "Connected wallet": {
+                const address = args[1]?.address as string | undefined
 
-              case "Widget disconnect clicked":
+                window.Intercom?.("update", { address })
+                setAddress(address)
+                return
+              }
+
+              case "Widget disconnect clicked": {
                 window.Intercom?.("update", { address: undefined })
                 setAddress(undefined)
-                break
+
+                return
+              }
 
               default:
                 break
             }
 
-            tracking.trackEvent(...args)
+            tracking?.trackEvent(...args)
           },
         }}
       />
