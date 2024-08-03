@@ -3952,11 +3952,11 @@ __metadata:
   linkType: hard
 
 "mixpanel-browser@npm:^2.54.0":
-  version: 2.54.0
-  resolution: "mixpanel-browser@npm:2.54.0"
+  version: 2.55.0
+  resolution: "mixpanel-browser@npm:2.55.0"
   dependencies:
     rrweb: "npm:2.0.0-alpha.13"
-  checksum: 10c0/d613d36e0a6f4016e4d46ed0204b885016f096a54926913d0ddc1d72220587ab2ff6072c174dc89bf64ca78da339a9a8eea926d3658a1933971be4183c582f25
+  checksum: 10c0/4e09bc32374a48c201ebd1736262a9d18157b6e612260c83cfb61c392c0fb4184824729163ebdad66f3d7f60f45305e7b08aea29c0e12352fd5869a08f3e771e
   languageName: node
   linkType: hard
 
