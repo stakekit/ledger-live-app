@@ -16,9 +16,11 @@ export const Widget = () => {
         apiKey={config.apiKey}
         theme={{
           ...darkTheme,
+          fontSize: {},
           color: {
             ...darkTheme.color,
-            background: "rgba(0, 0, 0, 0.83)",
+            tabBorder: "#BDB0FF",
+            background: "#1E1E20",
             modalBodyBackground: "#121415",
             selectValidatorMultiDefaultBackground: "#121415",
             positionsSectionBackgroundColor: "#121415",
@@ -30,6 +32,28 @@ export const Widget = () => {
               profileForeground: "#121415",
             },
 
+            stakeSectionBackground: "#121514",
+            backgroundMuted: "#29282A",
+            tokenSelectBackground: "#FFFFFF0D",
+            positionsSectionDividerColor: "#FFFFFF0D",
+            tokenSelectHoverBackground: "#ffffff1a",
+
+            skeletonLoaderBase: "#FFFFFF0D",
+            skeletonLoaderHighlight: "#2B2B2B",
+            dropdownBackground: "#121415",
+            warningBoxBackground: "#FFFFFF0D",
+
+            // Primary Button
+            primaryButtonBackground: "#BDB0FF",
+            primaryButtonOutline: "#BDB0FF",
+
+            primaryButtonActiveBackground: "#BDB0FF",
+            primaryButtonActiveOutline: "#BDB0FF",
+
+            primaryButtonHoverBackground: "#a999fa",
+            primaryButtonHoverOutline: "#a999fa",
+
+            // Secondary Button
             secondaryButtonBackground: "#FFFFFF0D",
             secondaryButtonOutline: "#FFFFFF0D",
 
@@ -41,16 +65,30 @@ export const Widget = () => {
             secondaryButtonHoverOutline: "#ffffff1a",
             secondaryButtonHoverColor: "#EEF0F2",
 
-            stakeSectionBackground: "#FFFFFF0D",
-            backgroundMuted: "#FFFFFF0D",
-            tokenSelectBackground: "#FFFFFF0D",
-            positionsSectionDividerColor: "#FFFFFF0D",
-            tokenSelectHoverBackground: "#ffffff1a",
+            // Disabled Button
+            disabledButtonBackground: "#dfd8ff",
+            disabledButtonOutline: "#dfd8ff",
+            disabledButtonColor: "#747474",
 
-            skeletonLoaderBase: "#FFFFFF0D",
-            skeletonLoaderHighlight: "#2B2B2B",
-            dropdownBackground: "#121415",
-            warningBoxBackground: "#FFFFFF0D",
+            // Small Button
+            smallButtonBackground: "#1E1E20",
+            smallButtonOutline: "#1E1E20",
+
+            smallButtonHoverBackground: "#212123",
+            smallButtonHoverOutline: "#212123",
+
+            smallLightButtonBackground: "#1E1E20",
+            smallLightButtonOutline: "#1E1E20",
+
+            smallLightButtonHoverBackground: "#212123",
+            smallLightButtonHoverOutline: "#212123",
+          },
+          borderRadius: {
+            baseContract: {
+              "2xl": "5px",
+              primaryButton: "5px",
+              secondaryButton: "5px",
+            },
           },
         }}
         tracking={{
