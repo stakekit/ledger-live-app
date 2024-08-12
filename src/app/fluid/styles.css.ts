@@ -19,9 +19,7 @@ export const styles = style({
     left: 0,
     content: '""',
   },
-})
 
-export const mobileBackground = style({
   background: `url(${gradientBackground.src})`,
   backgroundPosition: "center center",
 })
