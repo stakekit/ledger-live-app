@@ -10,6 +10,7 @@ export const container = style({
   flexDirection: "column",
   position: "relative",
   overflow: "hidden",
+  background: "#121514",
 })
 
 export const links = style({

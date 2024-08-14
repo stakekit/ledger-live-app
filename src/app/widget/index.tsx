@@ -5,15 +5,7 @@ import { config } from "../../config"
 import { tracking } from "../tracking"
 import Script from "next/script"
 import { useState } from "react"
-
-const primary_dark = "#1E1E20"
-const primary_dark_hover = "#2f2f32"
-
-const secondary_dark = "#121514"
-const secondary_dark_hover = "#282928"
-
-const purple = "#BDB0FF"
-const purple_hover = "#D2C9FF"
+import { colors } from "../../styles/tokens/colors"
 
 export const Widget = () => {
   const [address, setAddress] = useState<string | undefined>(undefined)
@@ -27,50 +19,50 @@ export const Widget = () => {
           fontSize: {},
           color: {
             ...darkTheme.color,
-            tabBorder: purple,
-            background: primary_dark,
-            modalBodyBackground: primary_dark,
-            selectValidatorMultiDefaultBackground: primary_dark,
-            positionsSectionBackgroundColor: primary_dark,
-            positionsSectionBorderColor: primary_dark,
+            tabBorder: colors.purple,
+            background: colors.primaryDark,
+            modalBodyBackground: colors.primaryDark,
+            selectValidatorMultiDefaultBackground: colors.primaryDark,
+            positionsSectionBackgroundColor: colors.primaryDark,
+            positionsSectionBorderColor: colors.primaryDark,
 
             connectKit: {
               ...darkTheme.color.connectKit,
-              modalBackground: primary_dark,
-              profileForeground: primary_dark,
+              modalBackground: colors.primaryDark,
+              profileForeground: colors.primaryDark,
             },
 
-            stakeSectionBackground: secondary_dark,
-            tokenSelectHoverBackground: secondary_dark_hover,
+            stakeSectionBackground: colors.secondaryDark,
+            tokenSelectHoverBackground: colors.secondaryDarkHover,
             backgroundMuted: "#29282A",
-            tokenSelectBackground: secondary_dark,
+            tokenSelectBackground: colors.secondaryDark,
             positionsSectionDividerColor: "#FFFFFF0D",
 
             skeletonLoaderBase: "#FFFFFF0D",
             skeletonLoaderHighlight: "#2B2B2B",
-            dropdownBackground: primary_dark,
+            dropdownBackground: colors.primaryDark,
             warningBoxBackground: "#FFFFFF0D",
 
             // Primary Button
-            primaryButtonBackground: purple,
-            primaryButtonOutline: purple,
+            primaryButtonBackground: colors.purple,
+            primaryButtonOutline: colors.purple,
 
-            primaryButtonActiveBackground: purple,
-            primaryButtonActiveOutline: purple,
+            primaryButtonActiveBackground: colors.purple,
+            primaryButtonActiveOutline: colors.purple,
 
-            primaryButtonHoverBackground: purple_hover,
-            primaryButtonHoverOutline: purple_hover,
+            primaryButtonHoverBackground: colors.purpleHover,
+            primaryButtonHoverOutline: colors.purpleHover,
 
             // Secondary Button
-            secondaryButtonBackground: secondary_dark,
-            secondaryButtonOutline: secondary_dark,
+            secondaryButtonBackground: colors.secondaryDark,
+            secondaryButtonOutline: colors.secondaryDark,
 
-            secondaryButtonActiveBackground: primary_dark,
-            secondaryButtonActiveOutline: primary_dark,
+            secondaryButtonActiveBackground: colors.primaryDark,
+            secondaryButtonActiveOutline: colors.primaryDark,
             secondaryButtonActiveColor: "#EEF0F2",
 
-            secondaryButtonHoverBackground: secondary_dark_hover,
-            secondaryButtonHoverOutline: secondary_dark_hover,
+            secondaryButtonHoverBackground: colors.secondaryDarkHover,
+            secondaryButtonHoverOutline: colors.secondaryDarkHover,
             secondaryButtonHoverColor: "#EEF0F2",
 
             // Disabled Button
@@ -79,17 +71,17 @@ export const Widget = () => {
             disabledButtonColor: "#747474",
 
             // Small Button
-            smallButtonBackground: primary_dark,
-            smallButtonOutline: primary_dark,
+            smallButtonBackground: colors.primaryDark,
+            smallButtonOutline: colors.primaryDark,
 
-            smallButtonHoverBackground: primary_dark_hover,
-            smallButtonHoverOutline: primary_dark_hover,
+            smallButtonHoverBackground: colors.primaryDarkHover,
+            smallButtonHoverOutline: colors.primaryDarkHover,
 
-            smallLightButtonBackground: primary_dark,
-            smallLightButtonOutline: primary_dark,
+            smallLightButtonBackground: colors.primaryDark,
+            smallLightButtonOutline: colors.primaryDark,
 
-            smallLightButtonHoverBackground: primary_dark_hover,
-            smallLightButtonHoverOutline: primary_dark_hover,
+            smallLightButtonHoverBackground: colors.primaryDarkHover,
+            smallLightButtonHoverOutline: colors.primaryDarkHover,
           },
           borderRadius: {
             baseContract: {
