@@ -1439,11 +1439,11 @@ __metadata:
   linkType: hard
 
 "@vanilla-extract/sprinkles@npm:^1.6.2":
-  version: 1.6.2
-  resolution: "@vanilla-extract/sprinkles@npm:1.6.2"
+  version: 1.6.3
+  resolution: "@vanilla-extract/sprinkles@npm:1.6.3"
   peerDependencies:
     "@vanilla-extract/css": ^1.0.0
-  checksum: 10c0/c9b648f7641e443492f45299d06d8cef1a50bc3615ff95b0bf60d5ac2249a774e58a559c537d7c3c7f9fe8a2e154bb198daee94fe64d37f7ec4057e3ff20f195
+  checksum: 10c0/17e03af9d090aa175bdeae646ae4a5bf1da37b7e473caa4ab92efbbd7678e53137e10281a0669f50ab5bd985a59e621da2bfc3e0cc28bded32becd72b8cfaf13
   languageName: node
   linkType: hard
 
