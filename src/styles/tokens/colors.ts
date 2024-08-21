@@ -16,6 +16,8 @@ export const colors = {
   primaryDarkHover: "#2f2f32",
   secondaryDark: "#121514",
   secondaryDarkHover: "#282928",
+  tertiaryDark: "#262629",
+  tertiaryDarkHover: "#2f2f32",
   purple: "#BDB0FF",
   purpleHover: "#D2C9FF",
 }
