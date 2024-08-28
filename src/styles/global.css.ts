@@ -29,7 +29,7 @@ globalStyle("[data-rk='stakekit'] > div:first-of-type", {
 
 globalStyle("[data-rk='chain-modal-container']", {
   border: "#2E2E31 solid 1px",
-  backgroundColor: "transparent!important",
+  backgroundColor: "transparent",
 })
 
 globalStyle("[data-rk='chain-modal-container'] > button", {
@@ -38,8 +38,8 @@ globalStyle("[data-rk='chain-modal-container'] > button", {
 
 globalStyle("[data-rk='account-modal-container']", {
   border: "#2E2E31 solid 1px",
-  borderRadius: "5px!important",
-  backgroundColor: "transparent !important",
+  borderRadius: "5px",
+  backgroundColor: "transparent ",
 })
 
 globalStyle("[data-rk='account-modal-container'] > button", {
@@ -48,7 +48,7 @@ globalStyle("[data-rk='account-modal-container'] > button", {
 
 // X-icon button border
 globalStyle("[data-rk='select-validator-trigger']", {
-  borderRadius: "3px!important",
+  borderRadius: "3px",
 })
 
 // X-icon color
@@ -58,7 +58,7 @@ globalStyle("[data-rk='select-validator-trigger'] > button > svg > path", {
 
 // + icon button border
 globalStyle("[data-rk='select-validator-plus']", {
-  borderRadius: "3px!important",
+  borderRadius: "3px",
 })
 
 // + icon color
@@ -67,14 +67,14 @@ globalStyle("[data-rk='select-validator-plus'] > svg > path", {
 })
 
 globalStyle("[data-rk='select-validator-trigger-container']", {
-  gap: "8px!important",
+  gap: "8px",
 })
 
 globalStyle("[data-rk='stake-token-section-max-button']", {
-  borderRadius: "3px!important",
+  borderRadius: "3px",
   border: "1px solid #505254",
   textTransform: "uppercase",
-  backgroundColor: "transparent!important",
+  backgroundColor: "transparent",
 })
 
 globalStyle("[data-rk='stake-token-section-max-button'] > p", {

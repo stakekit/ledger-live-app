@@ -71,23 +71,30 @@ export const Widget = () => {
             disabledButtonColor: "#747474",
 
             // Small Button
-            smallButtonBackground: colors.primaryDark,
-            smallButtonOutline: colors.primaryDark,
+            smallButtonBackground: colors.tertiaryDark,
+            smallButtonOutline: colors.tertiaryDark,
 
-            smallButtonHoverBackground: colors.primaryDarkHover,
-            smallButtonHoverOutline: colors.primaryDarkHover,
+            smallButtonHoverBackground: colors.tertiaryDarkHover,
+            smallButtonHoverOutline: colors.tertiaryDarkHover,
 
-            smallLightButtonBackground: colors.primaryDark,
-            smallLightButtonOutline: colors.primaryDark,
+            smallLightButtonBackground: colors.tertiaryDark,
+            smallLightButtonOutline: colors.tertiaryDark,
 
-            smallLightButtonHoverBackground: colors.primaryDarkHover,
-            smallLightButtonHoverOutline: colors.primaryDarkHover,
+            smallLightButtonHoverBackground: colors.tertiaryDarkHover,
+            smallLightButtonHoverOutline: colors.tertiaryDarkHover,
           },
           borderRadius: {
             baseContract: {
+              xl: "5px",
               "2xl": "5px",
               primaryButton: "5px",
               secondaryButton: "5px",
+              base: "3px",
+              smallButton: "5px",
+            },
+            connectKit: {
+              modal: "5px",
+              menuButton: "5px",
             },
           },
         }}
