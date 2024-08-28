@@ -89,6 +89,8 @@ export const Widget = () => {
               "2xl": "5px",
               primaryButton: "5px",
               secondaryButton: "5px",
+              base: "3px",
+              smallButton: "5px",
             },
             connectKit: {
               modal: "5px",
