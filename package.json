@@ -29,7 +29,7 @@
     "typescript": "5.5.4"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.12",
+    "@types/eslint": "^9.0.0",
     "@types/lodash.merge": "^4.6.9",
     "@types/mixpanel-browser": "^2.50.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0"
