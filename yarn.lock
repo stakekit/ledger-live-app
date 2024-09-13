@@ -1028,13 +1028,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@file:./package-06.tgz::locator=standalone-dapp%40workspace%3A.":
-  version: 0.0.192
-  resolution: "@stakekit/widget@file:./package-06.tgz#./package-06.tgz::hash=c5a2d9&locator=standalone-dapp%40workspace%3A."
+"@stakekit/widget@file:./package-07.tgz::locator=standalone-dapp%40workspace%3A.":
+  version: 0.0.194
+  resolution: "@stakekit/widget@file:./package-07.tgz#./package-07.tgz::hash=becf42&locator=standalone-dapp%40workspace%3A."
   peerDependencies:
     react: ">=18"
     react-dom: ">=18"
-  checksum: 10c0/781f73a0d10f25f9d0cb72527d9f9fe7b4ee57c133b1f9f6f158078ce01292743a03688242f600c1690cdfd4f942b4fd6025449a02bf300860a3265cd9b7dcfd
+  checksum: 10c0/845841614ebb47b65cd635c2bb6be78ecd7a4b1c584e7d353b0a0f112eb3292590357ba778d892eea51d6434db4b3a5ae64b1f8b79738be3545dfc67ab433356
   languageName: node
   linkType: hard
 
@@ -4912,7 +4912,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "standalone-dapp@workspace:."
   dependencies:
-    "@stakekit/widget": "file:./package-06.tgz"
+    "@stakekit/widget": "file:./package-07.tgz"
     "@types/eslint": "npm:^8.56.12"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.50.0"
