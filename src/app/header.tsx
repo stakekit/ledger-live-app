@@ -17,7 +17,7 @@ export const Header = () => {
     >
       <Box
         as="a"
-        href="/"
+        href="javascript:window.location.reload(true)"
         display="flex"
         alignItems="center"
         justifyContent="center"
