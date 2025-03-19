@@ -1028,13 +1028,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:0.0.212":
-  version: 0.0.212
-  resolution: "@stakekit/widget@npm:0.0.212"
+"@stakekit/widget@npm:0.0.213":
+  version: 0.0.213
+  resolution: "@stakekit/widget@npm:0.0.213"
+  dependencies:
+    react-compiler-runtime: "npm:19.0.0-beta-bafa41b-20250307"
   peerDependencies:
     react: ">=18"
     react-dom: ">=18"
-  checksum: 10c0/2efd61682adb06edfe93084330b68327f7e3b658c814a637c8b83996c953a748ea481df0da8ecab8c1b4a5859e3783433b34ebe1d35496ed8b4933b19dd5d68e
+  checksum: 10c0/f053a9be3d1e2c3404ea93e605843be72b2f919a3ed28cc74dcb27c67c30817ef735bef37977b6088d67a7bdcfd6fd5f20069eb23f617db260c2fbddb54e9c94
   languageName: node
   linkType: hard
 
@@ -4450,6 +4452,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-compiler-runtime@npm:19.0.0-beta-bafa41b-20250307":
+  version: 19.0.0-beta-bafa41b-20250307
+  resolution: "react-compiler-runtime@npm:19.0.0-beta-bafa41b-20250307"
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0 || ^19.0.0 || ^0.0.0-experimental
+  checksum: 10c0/d2f2f99157d90dcc057168e836fa25d8ffb9abb841acd330e1444f1b9a3156efb9a7fdf62a77cbb50dc745959e2041820a16742603e7245160ba05714afc3c8d
+  languageName: node
+  linkType: hard
+
 "react-dom@npm:18.3.1":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
@@ -4912,7 +4923,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "standalone-dapp@workspace:."
   dependencies:
-    "@stakekit/widget": "npm:0.0.212"
+    "@stakekit/widget": "npm:0.0.213"
     "@types/eslint": "npm:^8.56.12"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.50.0"
