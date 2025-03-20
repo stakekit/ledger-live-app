@@ -1,145 +1,146 @@
-"use client"
-import "@stakekit/widget/style.css"
-import { SKApp, darkTheme } from "@stakekit/widget"
-import { config } from "../../config"
-import { tracking } from "../tracking"
-import Script from "next/script"
-import { useState } from "react"
-import { colors } from "../../styles/tokens/colors"
+"use client";
+import "@stakekit/widget/style.css";
+import { SKApp, darkTheme } from "@stakekit/widget";
+import Script from "next/script";
+import { useState } from "react";
+import { config } from "../../config";
+import { colors } from "../../styles/tokens/colors";
+import { tracking } from "../tracking";
 
 export const Widget = () => {
-  const [address, setAddress] = useState<string | undefined>(undefined)
+	const [address, setAddress] = useState<string | undefined>(undefined);
 
-  return (
-    <>
-      <SKApp
-        apiKey={config.apiKey}
-        theme={{
-          ...darkTheme,
-          fontSize: {},
-          color: {
-            ...darkTheme.color,
-            tabBorder: colors.purple,
-            background: colors.primaryDark,
-            modalBodyBackground: colors.primaryDark,
-            selectValidatorMultiDefaultBackground: colors.primaryDark,
-            positionsSectionBackgroundColor: colors.primaryDark,
-            positionsSectionBorderColor: colors.primaryDark,
+	return (
+		<>
+			<SKApp
+				apiKey={config.apiKey}
+				theme={{
+					...darkTheme,
+					fontSize: {},
+					color: {
+						...darkTheme.color,
+						tabBorder: colors.purple,
+						background: colors.primaryDark,
+						modalBodyBackground: colors.primaryDark,
+						selectValidatorMultiDefaultBackground: colors.primaryDark,
+						positionsSectionBackgroundColor: colors.primaryDark,
+						positionsSectionBorderColor: colors.primaryDark,
 
-            connectKit: {
-              ...darkTheme.color.connectKit,
-              modalBackground: colors.primaryDark,
-              profileForeground: colors.primaryDark,
-            },
+						connectKit: {
+							...darkTheme.color.connectKit,
+							modalBackground: colors.primaryDark,
+							profileForeground: colors.primaryDark,
+						},
 
-            stakeSectionBackground: colors.secondaryDark,
-            tokenSelectHoverBackground: colors.secondaryDarkHover,
-            backgroundMuted: "#29282A",
-            tokenSelectBackground: colors.secondaryDark,
-            positionsSectionDividerColor: "#FFFFFF0D",
+						stakeSectionBackground: colors.secondaryDark,
+						tokenSelectHoverBackground: colors.secondaryDarkHover,
+						backgroundMuted: "#29282A",
+						tokenSelectBackground: colors.secondaryDark,
+						positionsSectionDividerColor: "#FFFFFF0D",
 
-            skeletonLoaderBase: "#FFFFFF0D",
-            skeletonLoaderHighlight: "#2B2B2B",
-            dropdownBackground: colors.primaryDark,
-            warningBoxBackground: "#FFFFFF0D",
+						skeletonLoaderBase: "#FFFFFF0D",
+						skeletonLoaderHighlight: "#2B2B2B",
+						dropdownBackground: colors.primaryDark,
+						warningBoxBackground: "#FFFFFF0D",
 
-            // Primary Button
-            primaryButtonBackground: colors.purple,
-            primaryButtonOutline: colors.purple,
+						// Primary Button
+						primaryButtonBackground: colors.purple,
+						primaryButtonOutline: colors.purple,
 
-            primaryButtonActiveBackground: colors.purple,
-            primaryButtonActiveOutline: colors.purple,
+						primaryButtonActiveBackground: colors.purple,
+						primaryButtonActiveOutline: colors.purple,
 
-            primaryButtonHoverBackground: colors.purpleHover,
-            primaryButtonHoverOutline: colors.purpleHover,
+						primaryButtonHoverBackground: colors.purpleHover,
+						primaryButtonHoverOutline: colors.purpleHover,
 
-            // Secondary Button
-            secondaryButtonBackground: colors.secondaryDark,
-            secondaryButtonOutline: colors.secondaryDark,
+						// Secondary Button
+						secondaryButtonBackground: colors.secondaryDark,
+						secondaryButtonOutline: colors.secondaryDark,
 
-            secondaryButtonActiveBackground: colors.primaryDark,
-            secondaryButtonActiveOutline: colors.primaryDark,
-            secondaryButtonActiveColor: "#EEF0F2",
+						secondaryButtonActiveBackground: colors.primaryDark,
+						secondaryButtonActiveOutline: colors.primaryDark,
+						secondaryButtonActiveColor: "#EEF0F2",
 
-            secondaryButtonHoverBackground: colors.secondaryDarkHover,
-            secondaryButtonHoverOutline: colors.secondaryDarkHover,
-            secondaryButtonHoverColor: "#EEF0F2",
+						secondaryButtonHoverBackground: colors.secondaryDarkHover,
+						secondaryButtonHoverOutline: colors.secondaryDarkHover,
+						secondaryButtonHoverColor: "#EEF0F2",
 
-            // Disabled Button
-            disabledButtonBackground: "#dfd8ff",
-            disabledButtonOutline: "#dfd8ff",
-            disabledButtonColor: "#747474",
+						// Disabled Button
+						disabledButtonBackground: "#dfd8ff",
+						disabledButtonOutline: "#dfd8ff",
+						disabledButtonColor: "#747474",
 
-            // Small Button
-            smallButtonBackground: colors.tertiaryDark,
-            smallButtonOutline: colors.tertiaryDark,
+						// Small Button
+						smallButtonBackground: colors.tertiaryDark,
+						smallButtonOutline: colors.tertiaryDark,
 
-            smallButtonHoverBackground: colors.tertiaryDarkHover,
-            smallButtonHoverOutline: colors.tertiaryDarkHover,
+						smallButtonHoverBackground: colors.tertiaryDarkHover,
+						smallButtonHoverOutline: colors.tertiaryDarkHover,
 
-            smallLightButtonBackground: colors.tertiaryDark,
-            smallLightButtonOutline: colors.tertiaryDark,
+						smallLightButtonBackground: colors.tertiaryDark,
+						smallLightButtonOutline: colors.tertiaryDark,
 
-            smallLightButtonHoverBackground: colors.tertiaryDarkHover,
-            smallLightButtonHoverOutline: colors.tertiaryDarkHover,
-          },
-          borderRadius: {
-            baseContract: {
-              xl: "5px",
-              "2xl": "5px",
-              primaryButton: "5px",
-              secondaryButton: "5px",
-              base: "3px",
-              smallButton: "5px",
-            },
-            connectKit: {
-              modal: "5px",
-              menuButton: "5px",
-            },
-          },
-        }}
-        tracking={{
-          ...tracking,
-          trackEvent: (...args) => {
-            const event = args[0]
+						smallLightButtonHoverBackground: colors.tertiaryDarkHover,
+						smallLightButtonHoverOutline: colors.tertiaryDarkHover,
+					},
+					borderRadius: {
+						baseContract: {
+							xl: "5px",
+							"2xl": "5px",
+							primaryButton: "5px",
+							secondaryButton: "5px",
+							base: "3px",
+							smallButton: "5px",
+						},
+						connectKit: {
+							modal: "5px",
+							menuButton: "5px",
+						},
+					},
+				}}
+				tracking={{
+					...tracking,
+					trackEvent: (...args) => {
+						const event = args[0];
 
-            switch (event) {
-              case "Connected wallet": {
-                const address = args[1]?.address as string | undefined
+						switch (event) {
+							case "Connected wallet": {
+								const address = args[1]?.address as string | undefined;
 
-                window.Intercom?.("update", { address })
-                setAddress(address)
-                return
-              }
+								window.Intercom?.("update", { address });
+								setAddress(address);
+								return;
+							}
 
-              case "Widget disconnect clicked": {
-                window.Intercom?.("update", { address: undefined })
-                setAddress(undefined)
+							case "Widget disconnect clicked": {
+								window.Intercom?.("update", { address: undefined });
+								setAddress(undefined);
 
-                return
-              }
+								return;
+							}
 
-              default:
-                break
-            }
+							default:
+								break;
+						}
 
-            tracking?.trackEvent(...args)
-          },
-        }}
-      />
+						tracking?.trackEvent(...args);
+					},
+				}}
+			/>
 
-      <Script
-        src="/chat.js"
-        strategy="afterInteractive"
-        onLoad={() =>
-          typeof window !== "undefined" &&
-          window.Intercom!("boot", {
-            api_base: config.intercom.apiBase,
-            app_id: config.intercom.appId,
-            address,
-          })
-        }
-      />
-    </>
-  )
-}
+			<Script
+				src="/chat.js"
+				strategy="afterInteractive"
+				onLoad={() => {
+					if (typeof window !== "undefined" && window.Intercom) {
+						window.Intercom("boot", {
+							api_base: config.intercom.apiBase,
+							app_id: config.intercom.appId,
+							address,
+						});
+					}
+				}}
+			/>
+		</>
+	);
+};
