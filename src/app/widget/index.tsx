@@ -98,6 +98,26 @@ export const Widget = () => {
 						},
 					},
 				}}
+				customTranslations={{
+					en: {
+						translation: {
+							yield_types: {
+								native_staking: {
+									cta: "Earn",
+								},
+								pooled_staking: {
+									cta: "Earn",
+								},
+								staking: {
+									cta: "Earn",
+								},
+								"liquid-staking": {
+									cta: "Earn",
+								},
+							},
+						},
+					},
+				}}
 				tracking={{
 					...tracking,
 					trackEvent: (...args) => {
