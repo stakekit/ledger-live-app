@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@stakekit/widget':
-        specifier: 0.0.217
-        version: 0.0.217(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: 0.0.218
+        version: 0.0.218(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@types/node':
         specifier: 22.14.0
         version: 22.14.0
@@ -542,8 +542,8 @@ packages:
   '@rrweb/utils@2.0.0-alpha.18':
     resolution: {integrity: sha512-qV8azQYo9RuwW4NGRtOiQfTBdHNL1B0Q//uRLMbCSjbaKqJYd88Js17Bdskj65a0Vgp2dwTLPIZ0gK47dfjfaA==}
 
-  '@stakekit/widget@0.0.217':
-    resolution: {integrity: sha512-EVXlF8rjanlylRUoX3OAVLQ8+NFyWOj5Cfcpg66h/+gfwYRcw1wBkxaaO99HpmQwG/KulXd+RpSytv9YItT6SQ==}
+  '@stakekit/widget@0.0.218':
+    resolution: {integrity: sha512-TGK8ioFq61UYY/ST3d9cxP6VrxhYjjHKI8Ie7Cpqcy0G/W5EdjmCX5fIxOpAA+N8TM5oaXIUEYJ2wgR3WRK2rA==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
@@ -1537,7 +1537,7 @@ snapshots:
 
   '@rrweb/utils@2.0.0-alpha.18': {}
 
-  '@stakekit/widget@0.0.217(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@stakekit/widget@0.0.218(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       react: 19.1.0
       react-compiler-runtime: 19.0.0-beta-bafa41b-20250307(react@19.1.0)
