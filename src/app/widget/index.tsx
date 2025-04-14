@@ -1,7 +1,7 @@
 "use client";
 import "@stakekit/widget/style.css";
 import { SKApp, darkTheme } from "@stakekit/widget";
-// import Script from "next/script";
+import Script from "next/script";
 import { useState } from "react";
 import { config } from "../../config";
 import { colors } from "../../styles/tokens/colors";
@@ -148,7 +148,7 @@ export const Widget = () => {
 				}}
 			/>
 
-			{/* <Script
+			<Script
 				src="/chat.js"
 				strategy="afterInteractive"
 				onLoad={() => {
@@ -160,7 +160,7 @@ export const Widget = () => {
 						});
 					}
 				}}
-			/> */}
+			/>
 		</>
 	);
 };
