@@ -10,7 +10,7 @@
 		"format": "biome check --write ."
 	},
 	"dependencies": {
-		"@stakekit/widget": "0.0.222",
+		"@stakekit/widget": "0.0.223",
 		"@types/node": "22.14.1",
 		"@types/react": "19.1.1",
 		"@types/react-dom": "19.1.2",
@@ -34,11 +34,7 @@
 	},
 	"packageManager": "pnpm@10.8.1",
 	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@biomejs/biome",
-			"esbuild",
-			"sharp"
-		]
+		"onlyBuiltDependencies": ["@biomejs/biome", "esbuild", "sharp"]
 	},
 	"engines": {
 		"node": "22.x"
