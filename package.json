@@ -10,9 +10,9 @@
 		"format": "biome check --write ."
 	},
 	"dependencies": {
-		"@stakekit/widget": "0.0.223",
-		"@types/node": "22.14.1",
-		"@types/react": "19.1.1",
+		"@stakekit/widget": "0.0.225",
+		"@types/node": "22.15.3",
+		"@types/react": "19.1.2",
 		"@types/react-dom": "19.1.2",
 		"@vanilla-extract/css": "^1.17.1",
 		"@vanilla-extract/dynamic": "^2.1.2",
@@ -21,8 +21,8 @@
 		"@vanilla-extract/sprinkles": "^1.6.3",
 		"clsx": "^2.1.1",
 		"lodash.merge": "^4.6.2",
-		"mixpanel-browser": "^2.63.0",
-		"next": "15.3.0",
+		"mixpanel-browser": "^2.64.0",
+		"next": "15.3.1",
 		"react": "19.1.0",
 		"react-dom": "19.1.0",
 		"typescript": "5.8.3"
@@ -34,7 +34,11 @@
 	},
 	"packageManager": "pnpm@10.8.1",
 	"pnpm": {
-		"onlyBuiltDependencies": ["@biomejs/biome", "esbuild", "sharp"]
+		"onlyBuiltDependencies": [
+			"@biomejs/biome",
+			"esbuild",
+			"sharp"
+		]
 	},
 	"engines": {
 		"node": "22.x"
