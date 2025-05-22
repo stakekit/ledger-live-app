@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@stakekit/widget':
-        specifier: 0.0.231
-        version: 0.0.231(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: 0.0.232
+        version: 0.0.232(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@types/node':
         specifier: 22.15.21
         version: 22.15.21
@@ -553,8 +553,8 @@ packages:
   '@rrweb/utils@2.0.0-alpha.18':
     resolution: {integrity: sha512-qV8azQYo9RuwW4NGRtOiQfTBdHNL1B0Q//uRLMbCSjbaKqJYd88Js17Bdskj65a0Vgp2dwTLPIZ0gK47dfjfaA==}
 
-  '@stakekit/widget@0.0.231':
-    resolution: {integrity: sha512-Bl7tSSTvAlGdijPhevnORbdNbKiXC81VU/LNScAMvnXJTE0yD4Gu7GrEDccFwCCkbBq96i208v3OwwNGSYhxig==}
+  '@stakekit/widget@0.0.232':
+    resolution: {integrity: sha512-5pfhEqPiy67R+9qeNpuN1VcnWbzuS/6nIFUgfhUIkOWhRyAM6teaWV/Oe5XwOXnX2B45xhFTyx66l5so5mJWuA==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
@@ -591,9 +591,6 @@ packages:
 
   '@types/node@22.15.21':
     resolution: {integrity: sha512-EV/37Td6c+MgKAbkcLG6vqZ2zEYHD7bvSrzqqs2RIhbA6w3x+Dqz8MZM3sP6kGTeLrdoOgKZe+Xja7tUB2DNkQ==}
-
-  '@types/node@22.15.3':
-    resolution: {integrity: sha512-lX7HFZeHf4QG/J7tBZqrCAXwz9J5RD56Y6MpP0eJkka8p+K0RY/yBTW7CYFJ4VGCclxqOLKmiGP5juQc6MKgcw==}
 
   '@types/react-dom@19.1.5':
     resolution: {integrity: sha512-CMCjrWucUBZvohgZxkjd6S9h0nZxXjzus6yDfUb+xLxYM7VvjKNH1tQrE9GWLql1XoOP4/Ds3bwFqShHUYraGg==}
@@ -1552,7 +1549,7 @@ snapshots:
 
   '@rrweb/utils@2.0.0-alpha.18': {}
 
-  '@stakekit/widget@0.0.231(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@stakekit/widget@0.0.232(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       react: 19.1.0
       react-compiler-runtime: 19.0.0-beta-e993439-20250405(react@19.1.0)
@@ -1589,10 +1586,6 @@ snapshots:
   '@types/mixpanel-browser@2.60.0': {}
 
   '@types/node@22.15.21':
-    dependencies:
-      undici-types: 6.21.0
-
-  '@types/node@22.15.3':
     dependencies:
       undici-types: 6.21.0
 
@@ -1934,7 +1927,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.15.3
+      '@types/node': 22.15.21
       merge-stream: 2.0.0
       supports-color: 8.1.1
 

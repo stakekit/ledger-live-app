@@ -10,7 +10,7 @@
 		"format": "biome check --write ."
 	},
 	"dependencies": {
-		"@stakekit/widget": "0.0.231",
+		"@stakekit/widget": "0.0.232",
 		"@types/node": "22.15.21",
 		"@types/react": "19.1.5",
 		"@types/react-dom": "19.1.5",
