@@ -9,7 +9,7 @@ if (mixpanelEnabled) {
 	mixpanel.init(config.mixPanelToken);
 }
 
-export const tracking: NonNullable<SKAppProps["tracking"]> = {
+export const tracking = {
 	trackEvent: (...args) => {
 		if (!mixpanelEnabled) return;
 
@@ -20,4 +20,4 @@ export const tracking: NonNullable<SKAppProps["tracking"]> = {
 
 		mixpanel.track_pageview({ page, ...(props && { props }) });
 	},
-};
+} satisfies NonNullable<SKAppProps["tracking"]>;
