@@ -143,7 +143,7 @@ export const Widget = () => {
 								break;
 						}
 
-						tracking?.trackEvent(...args);
+						tracking.trackEvent(...args);
 					},
 				}}
 			/>
