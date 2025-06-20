@@ -1,4 +1,3 @@
-import React from "react";
 import { Box } from "../components/atoms/box";
 import { Header } from "./header";
 import { container } from "./style.css";
