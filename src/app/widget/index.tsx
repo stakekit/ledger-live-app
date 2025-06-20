@@ -1,6 +1,6 @@
 "use client";
 import "@stakekit/widget/style.css";
-import { SKApp, darkTheme } from "@stakekit/widget";
+import { darkTheme, SKApp } from "@stakekit/widget";
 import Script from "next/script";
 import { useState } from "react";
 import { config } from "../../config";
