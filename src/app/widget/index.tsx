@@ -14,6 +14,7 @@ export const Widget = () => {
 		<>
 			<SKApp
 				apiKey={config.apiKey}
+				baseUrl={config.baseUrl}
 				theme={{
 					...darkTheme,
 					fontSize: {},
