@@ -103,7 +103,7 @@ export const Widget = () => {
 					en: {
 						translation: {
 							shared: {
-								powered_by: "Powered by StakeKit",
+								powered_by: "StakeKit by Yield.xyz",
 							},
 							yield_types: {
 								native_staking: {
