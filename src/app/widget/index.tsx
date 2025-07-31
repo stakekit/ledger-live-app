@@ -102,9 +102,6 @@ export const Widget = () => {
 				customTranslations={{
 					en: {
 						translation: {
-							shared: {
-								powered_by: "StakeKit by Yield.xyz",
-							},
 							yield_types: {
 								native_staking: {
 									cta: "Earn",
