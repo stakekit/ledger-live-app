@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@stakekit/widget':
-        specifier: 0.0.260
-        version: 0.0.260(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+        specifier: 0.0.263
+        version: 0.0.263(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@types/node':
         specifier: 24.10.0
         version: 24.10.0
@@ -577,8 +577,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@stakekit/widget@0.0.260':
-    resolution: {integrity: sha512-dpAn/E/GAZeAwerpE8Q8h+EAFxWC6YZm3IC2kGKIhdGO6puXBBuDVesprhBaVJ2pte4QqykbrtLeiLVN5w7uUA==}
+  '@stakekit/widget@0.0.263':
+    resolution: {integrity: sha512-5rEzws87ICyNvWOCtG2e/oZE8GD8X3xsH7+/qiWHk4MQPZEqSq1XYkP5txhBrh52lDkIN9+bPBPYq0MofZJ+gg==}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
@@ -1617,7 +1617,7 @@ snapshots:
   '@next/swc-win32-x64-msvc@15.4.5':
     optional: true
 
-  '@stakekit/widget@0.0.260(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
+  '@stakekit/widget@0.0.263(react-dom@19.2.0(react@19.2.0))(react@19.2.0)':
     dependencies:
       react: 19.2.0
       react-compiler-runtime: 19.1.0-rc.2(react@19.2.0)
