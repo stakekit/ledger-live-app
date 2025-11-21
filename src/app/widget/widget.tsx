@@ -4,9 +4,11 @@ import "@stakekit/widget/style.css";
 import { darkTheme, SKApp } from "@stakekit/widget";
 import Script from "next/script";
 import { useState } from "react";
+import { Box } from "@/components/atoms/box";
 import { config } from "../../config";
 import { colors } from "../../styles/tokens/colors";
 import { tracking } from "../tracking";
+import { HelpModals } from "./help-modals";
 
 export const Widget = () => {
 	const [address, setAddress] = useState<string | undefined>(undefined);
@@ -149,6 +151,10 @@ export const Widget = () => {
 					},
 				}}
 			/>
+
+			<Box marginTop={{ tablet: "0", mobile: "8" }}>
+				<HelpModals />
+			</Box>
 
 			<Script
 				src="/chat.js"
