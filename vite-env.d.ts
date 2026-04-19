@@ -1,0 +1,14 @@
+/// <reference types="vite/client" />
+
+interface ImportMetaEnv {
+	readonly VITE_API_KEY?: string;
+	readonly VITE_BASE_URL?: string;
+	readonly VITE_MIX_PANEL_TOKEN?: string;
+	readonly NEXT_PUBLIC_API_KEY?: string;
+	readonly NEXT_PUBLIC_BASE_URL?: string;
+	readonly NEXT_PUBLIC_MIX_PANEL_TOKEN?: string;
+}
+
+interface ImportMeta {
+	readonly env: ImportMetaEnv;
+}

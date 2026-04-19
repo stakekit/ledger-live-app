@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Box } from "../components/atoms/box";
 import { Divider } from "../components/atoms/divider";
 import { GHIcon } from "../components/atoms/icons/gh";
@@ -17,12 +16,18 @@ export const Header = () => {
 		>
 			<Box
 				as="a"
-				href="javascript:window.location.reload(true)"
+				href="/"
 				display="flex"
 				alignItems="center"
 				justifyContent="center"
+				aria-label="Yield.xyz home"
 			>
-				<Image src={Logo} alt="logo" className={logo} priority />
+				<img
+					src={Logo}
+					alt="Yield.xyz logo"
+					className={logo}
+					fetchPriority="high"
+				/>
 			</Box>
 
 			<Box

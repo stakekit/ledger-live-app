@@ -1,5 +1,3 @@
-"use client";
-
 import { HelpModal, TrackingContextProvider } from "@stakekit/widget";
 import { Box } from "../../components/atoms/box";
 import { Text } from "../../components/atoms/typography";

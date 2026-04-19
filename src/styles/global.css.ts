@@ -1,5 +1,13 @@
 import { globalStyle } from "@vanilla-extract/css";
 import { maxMediaQuery } from "./tokens/breakpoints";
+import { garamondVar, robotoVar } from "./tokens/fonts";
+
+globalStyle(":root", {
+	vars: {
+		[garamondVar]: '"EB Garamond"',
+		[robotoVar]: '"Roboto Flex"',
+	},
+});
 
 globalStyle("html, body", {
 	margin: 0,
