@@ -1,15 +1,24 @@
-**This** is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Vite](https://vite.dev/) + React project.
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3002](http://localhost:3002) with your browser to see the app.
+
+## Environment Variables
+
+The app reads either Vite-prefixed or legacy Next-prefixed public env vars:
+
+```bash
+VITE_API_KEY=...
+VITE_BASE_URL=...
+VITE_MIX_PANEL_TOKEN=...
+```
+
+Legacy `NEXT_PUBLIC_*` names are also supported during the migration.
