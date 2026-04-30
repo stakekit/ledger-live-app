@@ -1,7 +1,7 @@
 import { HelpModal, TrackingContextProvider } from "@stakekit/widget";
 import { Box } from "../../components/atoms/box";
 import { Text } from "../../components/atoms/typography";
-import { links } from "../style.css";
+import { emailUnderline, links } from "../style.css";
 import { tracking } from "../tracking";
 
 export const HelpModals = () => (
@@ -23,16 +23,12 @@ export const HelpModals = () => (
 				}
 			/>
 
-			<HelpModal
-				modal={{ type: "getInTouch" }}
-				customTrigger={
-					<Box className={links}>
-						<Text variant={{ size: "supportLink" }}>
-							Need help or have questions?
-						</Text>
-					</Box>
-				}
-			/>
+			<Text as="span" variant={{ size: "supportLink" }}>
+				Contact us at{" "}
+				<Box as="a" href="mailto:support@yield.xyz" className={emailUnderline}>
+					support@yield.xyz
+				</Box>
+			</Text>
 
 			<Box as="a" href="https://twitter.com/yield_xyz" target="_blank">
 				<Text variant={{ size: "supportLink" }}>Follow us on Twitter</Text>
