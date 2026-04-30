@@ -1,6 +1,7 @@
 import { style } from "@vanilla-extract/css";
 import { atoms } from "../styles";
 import { minMediaQuery } from "../styles/tokens/breakpoints";
+import { colors } from "../styles/tokens/colors";
 
 export const layoutContainer = style([atoms({ fontFamily: "body" })]);
 
@@ -15,6 +16,14 @@ export const container = style({
 
 export const links = style({
 	cursor: "pointer",
+});
+
+export const emailUnderline = style({
+	color: colors.purple,
+	textDecorationLine: "underline",
+	textDecorationThickness: "2px",
+	textUnderlineOffset: "5px",
+	textDecorationColor: colors.purple,
 });
 
 export const connectContainer = style({
