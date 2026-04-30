@@ -1,6 +1,5 @@
 import "@stakekit/widget/style.css";
 import { darkTheme, SKApp } from "@stakekit/widget";
-import { useEffect, useRef, useState } from "react";
 import { Box } from "@/components/atoms/box";
 import { config } from "../../config";
 import { colors } from "../../styles/tokens/colors";
@@ -8,56 +7,6 @@ import { tracking } from "../tracking";
 import { HelpModals } from "./help-modals";
 
 export const Widget = () => {
-	const [address, setAddress] = useState<string | undefined>(undefined);
-	const addressRef = useRef<string | undefined>(address);
-	const intercomBootedRef = useRef(false);
-
-	useEffect(() => {
-		addressRef.current = address;
-	}, [address]);
-
-	useEffect(() => {
-		if (typeof window === "undefined") {
-			return undefined;
-		}
-
-		const bootIntercom = () => {
-			if (intercomBootedRef.current || !window.Intercom) {
-				return;
-			}
-
-			window.Intercom("boot", {
-				api_base: config.intercom.apiBase,
-				app_id: config.intercom.appId,
-				address: addressRef.current,
-			});
-			intercomBootedRef.current = true;
-		};
-
-		if (window.Intercom) {
-			bootIntercom();
-			return undefined;
-		}
-
-		const existingScript = document.querySelector<HTMLScriptElement>(
-			'script[data-intercom-chat="true"]',
-		);
-		const script = existingScript ?? document.createElement("script");
-
-		if (!existingScript) {
-			script.async = true;
-			script.src = `${import.meta.env.BASE_URL}chat.js`;
-			script.dataset.intercomChat = "true";
-			document.body.appendChild(script);
-		}
-
-		script.addEventListener("load", bootIntercom);
-
-		return () => {
-			script.removeEventListener("load", bootIntercom);
-		};
-	}, []);
-
 	return (
 		<>
 			<SKApp
@@ -167,34 +116,7 @@ export const Widget = () => {
 						},
 					},
 				}}
-				tracking={{
-					...tracking,
-					trackEvent: (...args) => {
-						const event = args[0];
-
-						switch (event) {
-							case "Connected wallet": {
-								const address = args[1]?.address as string | undefined;
-
-								window.Intercom?.("update", { address });
-								setAddress(address);
-								return;
-							}
-
-							case "Widget disconnect clicked": {
-								window.Intercom?.("update", { address: undefined });
-								setAddress(undefined);
-
-								return;
-							}
-
-							default:
-								break;
-						}
-
-						tracking.trackEvent(...args);
-					},
-				}}
+				tracking={tracking}
 			/>
 
 			<Box marginTop={{ tablet: "0", mobile: "8" }}>
