@@ -26,6 +26,17 @@ export const emailUnderline = style({
 	textDecorationColor: colors.purple,
 });
 
+export const actionButton = style([
+	emailUnderline,
+	{
+		background: "transparent",
+		border: 0,
+		padding: 0,
+		font: "inherit",
+		cursor: "pointer",
+	},
+]);
+
 export const connectContainer = style({
 	borderRadius: "110px",
 	background: "rgba(255, 255, 255, 0.05)",
