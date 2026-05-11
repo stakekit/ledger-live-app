@@ -1,8 +1,9 @@
 import { HelpModal, TrackingContextProvider } from "@stakekit/widget";
 import { Box } from "../../components/atoms/box";
 import { Text } from "../../components/atoms/typography";
-import { emailUnderline, links } from "../style.css";
+import { actionButton, emailUnderline, links } from "../style.css";
 import { tracking } from "../tracking";
+import { zendesk } from "../zendesk";
 
 export const HelpModals = () => (
 	<TrackingContextProvider tracking={tracking}>
@@ -27,6 +28,15 @@ export const HelpModals = () => (
 				Contact us at{" "}
 				<Box as="a" href="mailto:support@yield.xyz" className={emailUnderline}>
 					support@yield.xyz
+				</Box>
+				{" or "}
+				<Box
+					as="button"
+					type="button"
+					className={actionButton}
+					onClick={() => zendesk.open()}
+				>
+					open chat
 				</Box>
 			</Text>
 
