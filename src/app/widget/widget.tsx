@@ -9,18 +9,22 @@ import { HelpModals } from "./help-modals";
 
 type WidgetTracking = NonNullable<SKAppProps["tracking"]>;
 type TrackEvent = NonNullable<WidgetTracking["trackEvent"]>;
+type TrackEventValue = Parameters<TrackEvent>[0];
+
+const CONNECTED_WALLET_EVENT: TrackEventValue = "Connected wallet";
+const DISCONNECTED_WALLET_EVENT: TrackEventValue = "Widget disconnect clicked";
 
 const trackEvent: TrackEvent = (...args) => {
 	const event = args[0];
 
 	switch (event) {
-		case "Connected wallet": {
+		case CONNECTED_WALLET_EVENT: {
 			const address = args[1]?.address as string | undefined;
 			zendesk.setAddress(address);
 			break;
 		}
 
-		case "Widget disconnect clicked":
+		case DISCONNECTED_WALLET_EVENT:
 			zendesk.setAddress(undefined);
 			break;
 
