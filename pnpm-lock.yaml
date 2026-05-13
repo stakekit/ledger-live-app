@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@stakekit/widget':
-        specifier: 0.0.270
-        version: 0.0.270(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        specifier: file:local-packages/stakekit-widget-0.0.270.tgz
+        version: file:local-packages/stakekit-widget-0.0.270.tgz(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@types/node':
         specifier: 25.6.0
         version: 25.6.0
@@ -528,8 +528,9 @@ packages:
   '@rolldown/pluginutils@1.0.0-rc.7':
     resolution: {integrity: sha512-qujRfC8sFVInYSPPMLQByRh7zhwkGFS4+tyMQ83srV1qrxL4g8E2tyxVVyxd0+8QeBM1mIk9KbWxkegRr76XzA==}
 
-  '@stakekit/widget@0.0.270':
-    resolution: {integrity: sha512-nWs9KOuEM0Gti+RQRnqN608/MrSBjYur5ycjaswXgDJ4IePmb5e/DuOVGlvvcKHUIhwt8TjKArEHX/XutUcXmA==}
+  '@stakekit/widget@file:local-packages/stakekit-widget-0.0.270.tgz':
+    resolution: {integrity: sha512-MM2GAAgkZTR2sWpf77l1YG08HyFseKVMxMGCJBO1uGWTpSmvXUqeYiQetgPMB40wmLaVYJaIBUyCl/MmCgVZkw==, tarball: file:local-packages/stakekit-widget-0.0.270.tgz}
+    version: 0.0.270
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
@@ -1384,7 +1385,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.0-rc.7': {}
 
-  '@stakekit/widget@0.0.270(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
+  '@stakekit/widget@file:local-packages/stakekit-widget-0.0.270.tgz(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
       react: 19.2.5
       react-dom: 19.2.5(react@19.2.5)
