@@ -48,6 +48,7 @@ export const HelpModals = () => (
 				display="flex"
 				justifyContent="center"
 				alignItems="center"
+				flexWrap="wrap"
 				gap="8"
 				marginTop="8"
 			>
